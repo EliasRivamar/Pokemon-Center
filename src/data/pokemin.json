@@ -1,0 +1,476 @@
+[
+  {
+    "id": 1,
+    "name": "Bulbasaur",
+    "slug": "bulbasaur",
+    "apiName": "bulbasaur",
+    "spriteSlug": "bulbasaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 45,
+      "atk": 49,
+      "def": 49,
+      "spa": 65,
+      "spd": 65,
+      "spe": 45
+    },
+    "abilities": {
+      "0": "Overgrow",
+      "H": "Chlorophyll"
+    },
+    "bst": 318,
+    "isUber": false,
+    "isGimmick": false
+  },
+  {
+    "id": 2,
+    "name": "Ivysaur",
+    "slug": "ivysaur",
+    "apiName": "ivysaur",
+    "spriteSlug": "ivysaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 60,
+      "atk": 62,
+      "def": 63,
+      "spa": 80,
+      "spd": 80,
+      "spe": 60
+    },
+    "abilities": {
+      "0": "Overgrow",
+      "H": "Chlorophyll"
+    },
+    "bst": 405,
+    "isUber": false,
+    "isGimmick": false
+  },
+  {
+    "id": 3,
+    "name": "Venusaur",
+    "slug": "venusaur",
+    "apiName": "venusaur",
+    "spriteSlug": "venusaur",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 80,
+      "atk": 82,
+      "def": 83,
+      "spa": 100,
+      "spd": 100,
+      "spe": 80
+    },
+    "abilities": {
+      "0": "Overgrow",
+      "H": "Chlorophyll"
+    },
+    "bst": 525,
+    "isUber": false,
+    "isGimmick": false
+  },
+  {
+    "id": 10033,
+    "name": "Mega Venusaur",
+    "slug": "venusaur-mega",
+    "apiName": "venusaur-mega",
+    "spriteSlug": "venusaur-mega",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 80,
+      "atk": 100,
+      "def": 123,
+      "spa": 122,
+      "spd": 120,
+      "spe": 80
+    },
+    "abilities": {
+      "0": "Thick Fat"
+    },
+    "bst": 625,
+    "isUber": false,
+    "isGimmick": true
+  },
+  {
+    "id": 10195,
+    "name": "Venusaur-Gmax",
+    "slug": "venusaur-gmax",
+    "apiName": "venusaur-gmax",
+    "spriteSlug": "venusaur-gigantamax",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "stats": {
+      "hp": 80,
+      "atk": 82,
+      "def": 83,
+      "spa": 100,
+      "spd": 100,
+      "spe": 80
+    },
+    "abilities": {
+      "0": "Overgrow",
+      "H": "Chlorophyll"
+    },
+    "bst": 525,
+    "isUber": false,
+    "isGimmick": true
+  },
+  {
+    "id": 4,
+    "name": "Charmander",
+    "slug": "charmander",
+    "apiName": "charmander",
+    "spriteSlug": "charmander",
+    "types": [
+      "Fire"
+    ],
+    "stats": {
+      "hp": 39,
+      "atk": 52,
+      "def": 43,
+      "spa": 60,
+      "spd": 50,
+      "spe": 65
+    },
+    "abilities": {
+      "0": "Blaze",
+      "H": "Solar Power"
+    },
+    "bst": 309,
+    "isUber": false,
+    "isGimmick": false
+  },
+  {
+    "id": 5,
+    "name": "Charmeleon",
+    "slug": "charmeleon",
+    "apiName": "charmeleon",
+    "spriteSlug": "charmeleon",
+    "types": [
+      "Fire"
+    ],
+    "stats": {
+      "hp": 58,
+      "atk": 64,
+      "def": 58,
+      "spa": 80,
+      "spd": 65,
+      "spe": 80
+    },
+    "abilities": {
+      "0": "Blaze",
+      "H": "Solar Power"
+    },
+    "bst": 405,
+    "isUber": false,
+    "isGimmick": false
+  },
+  {
+    "id": 6,
+    "name": "Charizard",
+    "slug": "charizard",
+    "apiName": "charizard",
+    "spriteSlug": "charizard",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "stats": {
+      "hp": 78,
+      "atk": 84,
+      "def": 78,
+      "spa": 109,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "Blaze",
+      "H": "Solar Power"
+    },
+    "bst": 534,
+    "isUber": false,
+    "isGimmick": false
+  },
+  {
+    "id": 10034,
+    "name": "Mega Charizard X",
+    "slug": "charizard-mega-x",
+    "apiName": "charizard-mega-x",
+    "spriteSlug": "charizard-mega-x",
+    "types": [
+      "Fire",
+      "Dragon"
+    ],
+    "stats": {
+      "hp": 78,
+      "atk": 130,
+      "def": 111,
+      "spa": 130,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "Tough Claws"
+    },
+    "bst": 634,
+    "isUber": false,
+    "isGimmick": true
+  },
+  {
+    "id": 10035,
+    "name": "Mega Charizard Y",
+    "slug": "charizard-mega-y",
+    "apiName": "charizard-mega-y",
+    "spriteSlug": "charizard-mega-y",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "stats": {
+      "hp": 78,
+      "atk": 104,
+      "def": 78,
+      "spa": 159,
+      "spd": 115,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "Drought"
+    },
+    "bst": 634,
+    "isUber": false,
+    "isGimmick": true
+  },
+  {
+    "id": 10196,
+    "name": "Charizard-Gmax",
+    "slug": "charizard-gmax",
+    "apiName": "charizard-gmax",
+    "spriteSlug": "charizard-gigantamax",
+    "types": [
+      "Fire",
+      "Flying"
+    ],
+    "stats": {
+      "hp": 78,
+      "atk": 84,
+      "def": 78,
+      "spa": 109,
+      "spd": 85,
+      "spe": 100
+    },
+    "abilities": {
+      "0": "Blaze",
+      "H": "Solar Power"
+    },
+    "bst": 534,
+    "isUber": false,
+    "isGimmick": true
+  },
+  {
+    "id": 7,
+    "name": "Squirtle",
+    "slug": "squirtle",
+    "apiName": "squirtle",
+    "spriteSlug": "squirtle",
+    "types": [
+      "Water"
+    ],
+    "stats": {
+      "hp": 44,
+      "atk": 48,
+      "def": 65,
+      "spa": 50,
+      "spd": 64,
+      "spe": 43
+    },
+    "abilities": {
+      "0": "Torrent",
+      "H": "Rain Dish"
+    },
+    "bst": 314,
+    "isUber": false,
+    "isGimmick": false
+  },
+  {
+    "id": 8,
+    "name": "Wartortle",
+    "slug": "wartortle",
+    "apiName": "wartortle",
+    "spriteSlug": "wartortle",
+    "types": [
+      "Water"
+    ],
+    "stats": {
+      "hp": 59,
+      "atk": 63,
+      "def": 80,
+      "spa": 65,
+      "spd": 80,
+      "spe": 58
+    },
+    "abilities": {
+      "0": "Torrent",
+      "H": "Rain Dish"
+    },
+    "bst": 405,
+    "isUber": false,
+    "isGimmick": false
+  },
+  {
+    "id": 9,
+    "name": "Blastoise",
+    "slug": "blastoise",
+    "apiName": "blastoise",
+    "spriteSlug": "blastoise",
+    "types": [
+      "Water"
+    ],
+    "stats": {
+      "hp": 79,
+      "atk": 83,
+      "def": 100,
+      "spa": 85,
+      "spd": 105,
+      "spe": 78
+    },
+    "abilities": {
+      "0": "Torrent",
+      "H": "Rain Dish"
+    },
+    "bst": 530,
+    "isUber": false,
+    "isGimmick": false
+  },
+  {
+    "id": 10036,
+    "name": "Mega Blastoise",
+    "slug": "blastoise-mega",
+    "apiName": "blastoise-mega",
+    "spriteSlug": "blastoise-mega",
+    "types": [
+      "Water"
+    ],
+    "stats": {
+      "hp": 79,
+      "atk": 103,
+      "def": 120,
+      "spa": 135,
+      "spd": 115,
+      "spe": 78
+    },
+    "abilities": {
+      "0": "Mega Launcher"
+    },
+    "bst": 630,
+    "isUber": false,
+    "isGimmick": true
+  },
+  {
+    "id": 10197,
+    "name": "Blastoise-Gmax",
+    "slug": "blastoise-gmax",
+    "apiName": "blastoise-gmax",
+    "spriteSlug": "blastoise-gigantamax",
+    "types": [
+      "Water"
+    ],
+    "stats": {
+      "hp": 79,
+      "atk": 83,
+      "def": 100,
+      "spa": 85,
+      "spd": 105,
+      "spe": 78
+    },
+    "abilities": {
+      "0": "Torrent",
+      "H": "Rain Dish"
+    },
+    "bst": 530,
+    "isUber": false,
+    "isGimmick": true
+  },
+  {
+    "id": 390,
+    "name": "Chimchar",
+    "slug": "chimchar",
+    "apiName": "chimchar",
+    "spriteSlug": "chimchar",
+    "types": ["Fire"],
+    "stats": {
+      "hp": 44,
+      "atk": 58,
+      "def": 44,
+      "spa": 58,
+      "spd": 44,
+      "spe": 61
+    },
+    "abilities": {
+      "0": "Blaze",
+      "H": "Iron Fist"
+    },
+    "bst": 309,
+    "isUber": false,
+    "isGimmick": false
+  },
+  {
+    "id": 391,
+    "name": "Monferno",
+    "slug": "monferno",
+    "apiName": "monferno",
+    "spriteSlug": "monferno",
+    "types": ["Fire", "Fighting"],
+    "stats": {
+      "hp": 64,
+      "atk": 78,
+      "def": 52,
+      "spa": 78,
+      "spd": 52,
+      "spe": 81
+    },
+    "abilities": {
+      "0": "Blaze",
+      "H": "Iron Fist"
+    },
+    "bst": 405,
+    "isUber": false,
+    "isGimmick": false
+  },
+  {
+    "id": 392,
+    "name": "Infernape",
+    "slug": "infernape",
+    "apiName": "infernape",
+    "spriteSlug": "infernape",
+    "types": ["Fire", "Fighting"],
+    "stats": {
+      "hp": 76,
+      "atk": 104,
+      "def": 71,
+      "spa": 104,
+      "spd": 71,
+      "spe": 108
+    },
+    "abilities": {
+      "0": "Blaze",
+      "H": "Iron Fist"
+    },
+    "bst": 534,
+    "isUber": false,
+    "isGimmick": false
+  }
+]

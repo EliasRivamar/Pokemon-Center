@@ -1,0 +1,68 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Light Theme */
+  --color-bg-light: #F2F2F2;
+  --color-bg-second-light: #E31B23;
+  --color-text-primary-light: #1A1A1A;
+  --color-text-secondary-light: #9E9E9E;
+
+  /* Dark Theme */
+  --color-bg-dark: #121212;
+  --color-bg-second-dark: #242424;
+  --color-text-primary-dark: #F5F5F5;
+  --color-text-secondary-dark: #BDBDBD;
+  --color-bor-dark: #3A3A3C;
+  --color-surface-dark: #1C1C1E;
+
+  /*  Typo */
+  --font-display: "Inter", sans-serif;
+}
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;              
+  height: 10px;             
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;  
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(156 163 175);
+  border-radius: 9999px;             
+  border: 2px solid transparent;     
+  background-clip: content-box;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(107 114 128);
+}
+
+/* Dark mode*/
+.dark ::-webkit-scrollbar-thumb {
+  background-color: rgb(75 85 99);
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(156 163 175);
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(156, 163, 175, 0.5);
+  border-radius: 9999px;
+  transition: background-color 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(107, 114, 128, 0.7);
+}

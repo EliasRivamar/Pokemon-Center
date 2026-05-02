@@ -5,10 +5,7 @@
     "slug": "bulbasaur",
     "apiName": "bulbasaur",
     "spriteSlug": "bulbasaur",
-    "types": [
-      "Grass",
-      "Poison"
-    ],
+    "types": ["Grass", "Poison"],
     "stats": {
       "hp": 45,
       "atk": 49,
@@ -31,10 +28,7 @@
     "slug": "ivysaur",
     "apiName": "ivysaur",
     "spriteSlug": "ivysaur",
-    "types": [
-      "Grass",
-      "Poison"
-    ],
+    "types": ["Grass","Poison"],
     "stats": {
       "hp": 60,
       "atk": 62,
@@ -57,10 +51,7 @@
     "slug": "venusaur",
     "apiName": "venusaur",
     "spriteSlug": "venusaur",
-    "types": [
-      "Grass",
-      "Poison"
-    ],
+    "types": ["Grass","Poison"],
     "stats": {
       "hp": 80,
       "atk": 82,
@@ -83,10 +74,7 @@
     "slug": "venusaur-mega",
     "apiName": "venusaur-mega",
     "spriteSlug": "venusaur-mega",
-    "types": [
-      "Grass",
-      "Poison"
-    ],
+    "types": ["Grass","Poison"],
     "stats": {
       "hp": 80,
       "atk": 100,
@@ -108,10 +96,7 @@
     "slug": "venusaur-gmax",
     "apiName": "venusaur-gmax",
     "spriteSlug": "venusaur-gigantamax",
-    "types": [
-      "Grass",
-      "Poison"
-    ],
+    "types": ["Grass","Poison"],
     "stats": {
       "hp": 80,
       "atk": 82,
@@ -134,9 +119,7 @@
     "slug": "charmander",
     "apiName": "charmander",
     "spriteSlug": "charmander",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "stats": {
       "hp": 39,
       "atk": 52,
@@ -159,9 +142,7 @@
     "slug": "charmeleon",
     "apiName": "charmeleon",
     "spriteSlug": "charmeleon",
-    "types": [
-      "Fire"
-    ],
+    "types": ["Fire"],
     "stats": {
       "hp": 58,
       "atk": 64,
@@ -184,10 +165,7 @@
     "slug": "charizard",
     "apiName": "charizard",
     "spriteSlug": "charizard",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
+    "types": ["Fire","Flying"],
     "stats": {
       "hp": 78,
       "atk": 84,
@@ -210,10 +188,7 @@
     "slug": "charizard-mega-x",
     "apiName": "charizard-mega-x",
     "spriteSlug": "charizard-mega-x",
-    "types": [
-      "Fire",
-      "Dragon"
-    ],
+    "types": ["Fire","Dragon"],
     "stats": {
       "hp": 78,
       "atk": 130,
@@ -235,10 +210,7 @@
     "slug": "charizard-mega-y",
     "apiName": "charizard-mega-y",
     "spriteSlug": "charizard-mega-y",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
+    "types": ["Fire","Flying"],
     "stats": {
       "hp": 78,
       "atk": 104,
@@ -260,10 +232,7 @@
     "slug": "charizard-gmax",
     "apiName": "charizard-gmax",
     "spriteSlug": "charizard-gigantamax",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
+    "types": ["Fire", "Flying"],
     "stats": {
       "hp": 78,
       "atk": 84,
@@ -286,9 +255,7 @@
     "slug": "squirtle",
     "apiName": "squirtle",
     "spriteSlug": "squirtle",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "stats": {
       "hp": 44,
       "atk": 48,
@@ -311,9 +278,7 @@
     "slug": "wartortle",
     "apiName": "wartortle",
     "spriteSlug": "wartortle",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "stats": {
       "hp": 59,
       "atk": 63,
@@ -336,9 +301,7 @@
     "slug": "blastoise",
     "apiName": "blastoise",
     "spriteSlug": "blastoise",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "stats": {
       "hp": 79,
       "atk": 83,
@@ -361,9 +324,7 @@
     "slug": "blastoise-mega",
     "apiName": "blastoise-mega",
     "spriteSlug": "blastoise-mega",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "stats": {
       "hp": 79,
       "atk": 103,
@@ -385,9 +346,7 @@
     "slug": "blastoise-gmax",
     "apiName": "blastoise-gmax",
     "spriteSlug": "blastoise-gigantamax",
-    "types": [
-      "Water"
-    ],
+    "types": ["Water"],
     "stats": {
       "hp": 79,
       "atk": 83,

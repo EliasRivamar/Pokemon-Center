@@ -1,0 +1,105 @@
+[
+  {
+    "evolutionLine": [
+      { "id": 1, "name": "bulbasaur" },
+      { "id": 2, "name": "ivysaur" },
+      { "id": 3, "name": "venusaur" }
+    ],
+    "mega": [{ "id": 10033, "name": "mega-venusaur" }],
+    "gmax": { "id": 10195, "name": "venusaur-gmax" }
+  },
+  {
+    "evolutionLine": [
+      { "id": 4, "name": "Charmander" },
+      { "id": 5, "name": "Charmeleon" },
+      { "id": 6, "name": "Charizard" }
+    ],
+    "mega": [
+      { "id": 10034, "name": "mega-charizard-x" },
+      { "id": 10035, "name": "mega-charizard-y" }
+    ],
+    "gmax": { "id": 10196, "name": "charizard-gmax" }
+  },
+  {
+    "evolutionLine": [
+      { "id": 7, "name": "squirtle" },
+      { "id": 8, "name": "wartortle" },
+      { "id": 9, "name": "blastoise" }
+    ],
+    "mega": [{ "id": 10036, "name": "mega-blastoise" }],
+    "gmax": { "id": 10197, "name": "blastoise-gmax" }
+  },
+  {
+    "evolutionLine": [
+      { "id": 10, "name": "caterpie" },
+      { "id": 11, "name": "metapod" },
+      { "id": 12, "name": "butterfree" }
+    ],
+    "mega": null,
+    "gmax": { "id": 10198, "name": "butterfree-gmax" }
+  },
+  {
+    "evolutionLine": [
+      { "id": 13, "name": "weedle" },
+      { "id": 14, "name": "kakuna" },
+      { "id": 15, "name": "beedrill" }
+    ],
+    "mega": [{ "id": 10090, "name": "mega-beedrill" }],
+    "gmax": null
+  },
+  {
+    "evolutionLine": [
+      { "id": 16, "name": "pidgey" },
+      { "id": 17, "name": "pidgeotto" },
+      { "id": 18, "name": "pidgeot" }
+    ],
+    "mega": [{ "id": 10073, "name": "mega-pidgeot" }],
+    "gmax": null
+  },
+  {
+    "evolutionLine": [
+      { "id": 19, "name": "rattata" },
+      { "id": 20, "name": "raticate" }
+    ],
+    "mega": null,
+    "gmax": null
+  },
+  {
+    "evolutionLine": [
+      { "id": 172, "name": "pichu"},
+      { "id": 25, "name": "pikachu" },
+      { "id": 26, "name": "raichu" }
+    ],
+    "mega": null,
+    "gmax": { "id": 10199, "name": "pikachu-gmax" }
+  },
+  {
+    "evolutionLine": [
+      { "id": 133, "name": "eevee" },
+      { "id": 134, "name": "vaporeon" },
+      { "id": 135, "name": "jolteon" },
+      { "id": 136, "name": "flareon" }
+    ],
+    "mega": null,
+    "gmax": { "id": 10205, "name": "eevee-gmax" }
+  },
+  {
+    "evolutionLine": [
+      { "id": 147, "name": "dratini" },
+      { "id": 148, "name": "dragonair" },
+      { "id": 149, "name": "dragonite" }
+    ],
+    "mega": null,
+    "gmax": null
+  },
+  {
+    "evolutionLine": [
+      { "id": 150, "name": "mewtwo" }
+    ],
+    "mega": [
+      { "id": 10043, "name": "mega-mewtwo-x" },
+      { "id": 10044, "name": "mega-mewtwo-y" }
+    ],
+    "gmax": null
+  }
+]

@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
+@font-face {
+  font-family: 'pixelFont';
+  src: url('./public/fonts/pixel_font2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @theme {
   /* Light Theme */
   --color-bg-light: #F2F2F2;
@@ -17,7 +24,7 @@
   --color-surface-dark: #1C1C1E;
 
   /*  Typo */
-  --font-display: "Inter", sans-serif;
+  --font-display: "pixelFont", sans-serif;
 }
 
 

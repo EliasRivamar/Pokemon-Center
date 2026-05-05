@@ -1,12 +1,16 @@
 [
   {
     "evolutionLine": [
-      { "id": 1, "name": "bulbasaur" },
-      { "id": 2, "name": "ivysaur" },
-      { "id": 3, "name": "venusaur" }
+      { "id": 1, "name": "Bulbasaur" },
+      { "id": 2, "name": "Ivysaur" },
+      { "id": 3, "name": "Venusaur" }
     ],
-    "mega": [{ "id": 10033, "name": "mega-venusaur" }],
-    "gmax": { "id": 10195, "name": "venusaur-gmax" }
+    "mega": [{ "id": 10033, "name": "Mega Venusaur" }],
+    "gmax":[{ "id": 10195, "name": "Venusaur Gmax" }],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
   },
   {
     "evolutionLine": [
@@ -15,91 +19,928 @@
       { "id": 6, "name": "Charizard" }
     ],
     "mega": [
-      { "id": 10034, "name": "mega-charizard-x" },
-      { "id": 10035, "name": "mega-charizard-y" }
+      { "id": 10034, "name": "Mega Charizard X" },
+      { "id": 10035, "name": "Mega Charizard y" }
     ],
-    "gmax": { "id": 10196, "name": "charizard-gmax" }
+    "gmax": [{ "id": 10196, "name": "Charizard Gmax" }],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
   },
   {
     "evolutionLine": [
-      { "id": 7, "name": "squirtle" },
-      { "id": 8, "name": "wartortle" },
-      { "id": 9, "name": "blastoise" }
+      { "id": 7, "name": "Squirtle" },
+      { "id": 8, "name": "Wartortle" },
+      { "id": 9, "name": "Blastoise" }
     ],
-    "mega": [{ "id": 10036, "name": "mega-blastoise" }],
-    "gmax": { "id": 10197, "name": "blastoise-gmax" }
+    "mega": [{ "id": 10036, "name": "Mega Blastoise" }],
+    "gmax": [{ "id": 10197, "name": "Blastoise Gmax" }],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
   },
   {
     "evolutionLine": [
-      { "id": 10, "name": "caterpie" },
-      { "id": 11, "name": "metapod" },
-      { "id": 12, "name": "butterfree" }
+      { "id": 10, "name": "Caterpie" },
+      { "id": 11, "name": "Metapod" },
+      { "id": 12, "name": "Butterfree" }
     ],
-    "mega": null,
-    "gmax": { "id": 10198, "name": "butterfree-gmax" }
+    "mega": [],
+    "gmax": [{ "id": 10198, "name": "Butterfree Gmax" }],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
   },
   {
     "evolutionLine": [
-      { "id": 13, "name": "weedle" },
-      { "id": 14, "name": "kakuna" },
-      { "id": 15, "name": "beedrill" }
+      { "id": 13, "name": "Weedle" },
+      { "id": 14, "name": "Kakuna" },
+      { "id": 15, "name": "Beedrill" }
     ],
-    "mega": [{ "id": 10090, "name": "mega-beedrill" }],
-    "gmax": null
+    "mega": [{ "id": 10090, "name": "Mega Beedrill" }],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
   },
   {
     "evolutionLine": [
-      { "id": 16, "name": "pidgey" },
-      { "id": 17, "name": "pidgeotto" },
-      { "id": 18, "name": "pidgeot" }
+      { "id": 16, "name": "Pidgey" },
+      { "id": 17, "name": "Pidgeotto" },
+      { "id": 18, "name": "Pidgeot" }
     ],
-    "mega": [{ "id": 10073, "name": "mega-pidgeot" }],
-    "gmax": null
+    "mega": [{ "id": 10073, "name": "Mega Pidgeot" }],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
   },
   {
     "evolutionLine": [
-      { "id": 19, "name": "rattata" },
-      { "id": 20, "name": "raticate" }
+      { "id": 19, "name": "Rattata" },
+      { "id": 20, "name": "Raticate" }
     ],
-    "mega": null,
-    "gmax": null
+    "mega": [],
+    "gmax": [],
+    "alola": [{"id": 10091 , "name": "Alolan Rattata"}, {"id": 10092, "name": "Alolan Raticate"}],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
   },
   {
     "evolutionLine": [
-      { "id": 172, "name": "pichu"},
-      { "id": 25, "name": "pikachu" },
-      { "id": 26, "name": "raichu" }
+      { "id": 20, "name": "Spearow" },
+      { "id": 22, "name": "Fearow" }
     ],
-    "mega": null,
-    "gmax": { "id": 10199, "name": "pikachu-gmax" }
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
   },
   {
     "evolutionLine": [
-      { "id": 133, "name": "eevee" },
-      { "id": 134, "name": "vaporeon" },
-      { "id": 135, "name": "jolteon" },
-      { "id": 136, "name": "flareon" }
+      { "id": 23, "name": "Ekans" },
+      { "id": 24, "name": "Arbok" }
     ],
-    "mega": null,
-    "gmax": { "id": 10205, "name": "eevee-gmax" }
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
   },
   {
     "evolutionLine": [
-      { "id": 147, "name": "dratini" },
-      { "id": 148, "name": "dragonair" },
-      { "id": 149, "name": "dragonite" }
+      { "id": 172, "name": "Pichu"},
+      { "id": 25, "name": "Pikachu" },
+      { "id": 26, "name": "Raichu" }
     ],
-    "mega": null,
-    "gmax": null
+    "mega": [{ "id": 10304, "name": "Mega Raichu X"}, {"id": 10305, "name": "Mega Raichu Y"}],
+    "gmax": [{ "id": 10199, "name": "Pikachu Gmax" }],
+    "alola": [{"id": 10099, "name": "Alolan Pikachu" }, {"id": 10100, "name": "Alolan Raichu"}],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
   },
   {
     "evolutionLine": [
-      { "id": 150, "name": "mewtwo" }
+      { "id": 27, "name": "Sandshrew" },
+      { "id": 28, "name": "Sandslash" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [{"id":10101 , "name": "Alolan Sandshrew"}, {"id": 10102 , "name":"Alolan Sandslash" }],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 29, "name": "Nidoran-F" },
+      { "id": 30, "name": "Nidorina" },
+      { "id": 31, "name": "Nidoqueen" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 32, "name": "Nidoran-M" },
+      { "id": 33, "name": "Nidorino" },
+      { "id": 34, "name": "Nidoking" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 35, "name": "Clefairy" },
+      { "id": 36, "name": "Clefable" }
+    ],
+    "mega": [{"id": 10278, "name": "Mega Clefable"}],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 37, "name": "Vulpix" },
+      { "id": 38, "name": "Ninetales" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [{"id": 10103, "name": "Alolan Vulpix"}, {"id": 10104, "name": "Alolan Ninetales"}],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 39, "name": "Jigglypuff" },
+      { "id": 40, "name": "Wigglytuff" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 41, "name": "Zubat" },
+      { "id": 42, "name": "Golbat" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 43, "name": "Oddish" },
+      { "id": 44, "name": "Gloom" },
+      { "id": 45, "name": "Vileplume" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 46, "name": "Paras" },
+      { "id": 47, "name": "Parasect" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 48, "name": "Venonat" },
+      { "id": 49, "name": "Venomoth" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 50, "name": "Diglett" },
+      { "id": 51, "name": "Dugtrio" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [{"id": 10105, "name": "Alolan Diglett"}, {"id": 10106, "name": "Alolan Dugtrio"}],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 52, "name": "Meowth" },
+      { "id": 53, "name": "Persian" }
+    ],
+    "mega": [],
+    "gmax": [{ "id": 10200 , "name": "Meowth Gmax"}],
+    "alola": [{"id": 10107 , "name": "Alolan Meowth"}, {"id": 10108, "name": "Alolan Persian"}],
+    "galar": [{"id": 52, "name": "Galarian Meowth"}],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 54, "name": "Psyduck" },
+      { "id": 55, "name": "Golduck" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 56, "name": "Mankey" },
+      { "id": 57, "name": "Primeape" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 58, "name": "Growlithe" },
+      { "id": 59, "name": "Arcanine" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [{"id": 10229, "name": "Hisuian Growlithe"}, {"id": 10230, "name": "Hisuian Arcanine" }],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 60, "name": "Poliwag" },
+      { "id": 61, "name": "Poliwhirl" },
+      { "id": 62, "name": "Poliwrath" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 63, "name": "Abra" },
+      { "id": 64, "name": "Kadabra" },
+      { "id": 65, "name": "Alakazam" }
+    ],
+    "mega": [{"id": 10037, "name": "Mega Alakazam"}],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 66, "name": "Machop" },
+      { "id": 67, "name": "Machoke" },
+      { "id": 68, "name": "Machamp" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 69, "name": "Bellsprout" },
+      { "id": 70, "name": "Weepinbell" },
+      { "id": 71, "name": "Victreebel" }
+    ],
+    "mega": [{"id": 10279, "name": "Mega Victreebel"}],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 72, "name": "Tentacoll" },
+      { "id": 73, "name": "Tentacruel" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 74, "name": "Geodude" },
+      { "id": 75, "name": "Graveler" },
+      { "id": 76, "name": "Golem" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [{"id": 10109, "name": "Alolan Geodude"}, {"id": 10110, "name": "Alolan Graveler"}, {"id": 10111, "name": "Alolan Golem"}],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 77, "name": "Ponyta" },
+      { "id": 78, "name": "Rapidash" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 79, "name": "Slowpoke" },
+      { "id": 80, "name": "Slowbro" }
+    ],
+    "mega": [ {"id": 10071 , "name": "Mega Slowbro"}],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 81, "name": "Magnemite" },
+      { "id": 82, "name": "Magneton" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 83, "name": "Farfetch'd" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 84, "name": "Doduo" },
+      { "id": 85, "name": "Dodrio" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 86, "name": "Seel" },
+      { "id": 87, "name": "Dewgong" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 88, "name": "Grimer" },
+      { "id": 89, "name": "Muk" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [{"id": 10112, "name": "Alolan Grimer"}, {"id": 10113, "name": "Alolan Muk"}],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 90, "name": "Shellder" },
+      { "id": 91, "name": "Cloyster" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 92, "name": "Gastly" },
+      { "id": 93, "name": "Haunter" },
+      { "id": 94, "name": "Gengar" }
+    ],
+    "mega": [{"id": 10038, "name": "Mega Gengar"}],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 95, "name": "Onix" },
+      { "id": 208, "name": "Steelix" }
+    ],
+    "mega": [{"id": 10072 , "name": "Mega Steelix"}],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 96, "name": "Drowzee" },
+      { "id": 97, "name": "Hypno" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 98, "name": "Krabby" },
+      { "id": 99, "name": "Kingler" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 100, "name": "Voltorb" },
+      { "id": 101, "name": "Electrode" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [{"id": 10231 , "name": "Hisuian Voltorb"}, {"id": 10232, "name": "Hisuian Electrode"}],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 102, "name": "Exeggcute" },
+      { "id": 103, "name": "Exeggutor" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [{"id": 10114, "name": "Alolan Exeggutor"}],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 104, "name": "Cubone" },
+      { "id": 105, "name": "Marowak" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [{"id": 10115, "name": "Alolan Marowak"}],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 106, "name": "Hitmonlee" },
+      { "id": 107, "name": "Hitmonchan" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 108, "name": "Lickitung" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 109, "name": "Koffing" },
+      { "id": 110, "name": "Weezing" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 111, "name": "Rhyhorn" },
+      { "id": 112, "name": "Rhydon" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 113, "name": "Chansey" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 114, "name": "Tangela" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 115, "name": "Kangaskhan" }
+    ],
+    "mega": [{"id": 10039, "name": "Mega Kangaskhan"}],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 116, "name": "Horsea" },
+      { "id": 117, "name": "Seadra" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 118, "name": "Goldeen" },
+      { "id": 119, "name": "Seaking" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 120, "name": "Staryu" },
+      { "id": 121, "name": "Starmie" }
+    ],
+    "mega": [{"id": 10280 , "name": "Mega Starmie" }],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 122, "name": "Mr. Mime" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 123, "name": "Scyther" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 124, "name": "Jynx" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 125, "name": "Electabuzz" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 126, "name": "Magmar" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 127, "name": "Pinsir" }
+    ],
+    "mega": [{"id": 10040, "name": "Mega Pinsir"}],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 128, "name": "Tauros" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": [{"id": 10250, "name": "Paldean Tauros Combar" }, {"id": 10251, "name": "Paldean Tauros Blaze"}, {"id": 10252, "name": "Paldean Tauros Aqua"}]
+  },
+  {
+    "evolutionLine": [
+      { "id": 129, "name": "Magikarp" },
+      { "id": 130, "name": "Gyarados" }
+    ],
+    "mega": [{"id": 10041, "name":"Mega Gyarados"}],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 131, "name": "Lapras" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 132, "name": "Ditto" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 133, "name": "Eevee" },
+      { "id": 134, "name": "Vaporeon" },
+      { "id": 135, "name": "Jolteon" },
+      { "id": 136, "name": "Flareon" },
+      { "id": 196, "name": "Espeon" },
+      { "id": 197, "name": "Umbreon" },
+      { "id": 470, "name": "Leafeon" },
+      { "id": 471, "name": "Glaceon" },
+      { "id": 700, "name": "Sylveon" }
+    ],
+    "mega": [],
+    "gmax": [{ "id": 10205, "name": "Eevee Gmax" }],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 137, "name": "Porygon" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 138, "name": "Omanyte" },
+      { "id": 139, "name": "Omastar" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 140, "name": "Kabuto" },
+      { "id": 141, "name": "Kabutops" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 142, "name": "Aerodactyl" }
+    ],
+    "mega": [{"id": 10042 , "name": "Mega Aerodactyl"}],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 143, "name": "Snorlax" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 144, "name": "Articuno" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 145, "name": "Zapdos" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 146, "name": "Moltres" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 147, "name": "Dratini" },
+      { "id": 148, "name": "Dragonair" },
+      { "id": 149, "name": "Dragonite" }
+    ],
+    "mega": [{"id": 10281, "name": "Mega Dragonite" }],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 150, "name": "Mewtwo" }
     ],
     "mega": [
-      { "id": 10043, "name": "mega-mewtwo-x" },
-      { "id": 10044, "name": "mega-mewtwo-y" }
+      { "id": 10043, "name": "Mega Mewtwo X" },
+      { "id": 10044, "name": "Mega Mewtwo Y" }
     ],
-    "gmax": null
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
+  },
+  {
+    "evolutionLine": [
+      { "id": 151, "name": "Mew" }
+    ],
+    "mega": [],
+    "gmax": [],
+    "alola": [],
+    "galar": [],
+    "hisui": [],
+    "paldea": []
   }
 ]

@@ -523,7 +523,7 @@
     "isGimmick": false
   },
   {
-    "id": 15,
+    "id": 10090,
     "name": "Mega Beedrill",
     "slug": "beedrill-mega",
     "apiName": "beedrill-mega",
@@ -617,7 +617,7 @@
     "isGimmick": false
   },
   {
-    "id": 18,
+    "id": 10073,
     "name": "Mega Pidgeot",
     "slug": "pidgeot-mega",
     "apiName": "pidgeot-mega",
@@ -663,7 +663,7 @@
     "isGimmick": false
   },
   {
-    "id": 19,
+    "id": 10091,
     "name": "Alolan Rattata",
     "slug": "rattata-alola",
     "apiName": "rattata-alola",
@@ -711,7 +711,7 @@
     "isGimmick": false
   },
   {
-    "id": 20,
+    "id": 10092,
     "name": "Alolan Raticate",
     "slug": "raticate-alola",
     "apiName": "raticate-alola",
@@ -735,7 +735,7 @@
     "isGimmick": false
   },
   {
-    "id": 20,
+    "id": 10092,
     "name": "Alolan Raticate-Totem",
     "slug": "raticate-alola-totem",
     "apiName": "raticate-alola",
@@ -874,7 +874,7 @@
     "isGimmick": false
   },
   {
-    "id": 25,
+    "id": 10099,
     "name": "Alolan Pikachu",
     "slug": "pikachu-alola",
     "apiName": "pikachu-alola-cap",
@@ -943,7 +943,7 @@
     "isGimmick": false
   },
   {
-    "id": 26,
+    "id": 10100,
     "name": "Alolan Raichu",
     "slug": "raichu-alola",
     "apiName": "raichu-alola",
@@ -965,7 +965,7 @@
     "isGimmick": false
   },
   {
-    "id": 26,
+    "id": 10304,
     "name": "Mega Raichu X",
     "slug": "raichu-mega-x",
     "apiName": "raichu-mega-x",
@@ -987,7 +987,7 @@
     "isGimmick": true
   },
   {
-    "id": 26,
+    "id": 10305,
     "name": "Mega Raichu Y",
     "slug": "raichu-mega-y",
     "apiName": "raichu-mega-y",
@@ -1032,7 +1032,7 @@
     "isGimmick": false
   },
   {
-    "id": 27,
+    "id": 10101,
     "name": "Alolan Sandshrew",
     "slug": "sandshrew-alola",
     "apiName": "sandshrew-alola",
@@ -1078,7 +1078,7 @@
     "isGimmick": false
   },
   {
-    "id": 28,
+    "id": 10102,
     "name": "Alolan Sandslash",
     "slug": "sandslash-alola",
     "apiName": "sandslash-alola",
@@ -1293,7 +1293,7 @@
     "isGimmick": false
   },
   {
-    "id": 36,
+    "id": 10278,
     "name": "Mega Clefable",
     "slug": "clefable-mega",
     "apiName": "clefable-mega",
@@ -1340,7 +1340,7 @@
     "isGimmick": false
   },
   {
-    "id": 37,
+    "id": 10103,
     "name": "Alolan Vulpix",
     "slug": "vulpix-alola",
     "apiName": "vulpix-alola",
@@ -1386,7 +1386,7 @@
     "isGimmick": false
   },
   {
-    "id": 38,
+    "id": 10104,
     "name": "Alolan Ninetales",
     "slug": "ninetales-alola",
     "apiName": "ninetales-alola",
@@ -1692,7 +1692,7 @@
     "isGimmick": false
   },
   {
-    "id": 50,
+    "id": 10105,
     "name": "Alolan Diglett",
     "slug": "diglett-alola",
     "apiName": "diglett-alola",
@@ -1740,7 +1740,7 @@
     "isGimmick": false
   },
   {
-    "id": 51,
+    "id": 10106,
     "name": "Alolan Dugtrio",
     "slug": "dugtrio-alola",
     "apiName": "dugtrio-alola",
@@ -1788,7 +1788,7 @@
     "isGimmick": false
   },
   {
-    "id": 52,
+    "id": 10107,
     "name": "Alolan Meowth",
     "slug": "meowth-alola",
     "apiName": "meowth-alola",
@@ -1836,7 +1836,7 @@
     "isGimmick": false
   },
   {
-    "id": 52,
+    "id": 10200,
     "name": "Meowth-Gmax",
     "slug": "meowth-gmax",
     "apiName": "meowth-gmax",
@@ -1884,7 +1884,7 @@
     "isGimmick": false
   },
   {
-    "id": 53,
+    "id": 10108,
     "name": "Alolan Persian",
     "slug": "persian-alola",
     "apiName": "persian-alola",
@@ -2028,7 +2028,7 @@
     "isGimmick": false
   },
   {
-    "id": 58,
+    "id": 10229,
     "name": "Hisuian Growlithe",
     "slug": "growlithe-hisui",
     "apiName": "growlithe-hisui",
@@ -2076,7 +2076,7 @@
     "isGimmick": false
   },
   {
-    "id": 59,
+    "id": 10230,
     "name": "Hisuian Arcanine",
     "slug": "arcanine-hisui",
     "apiName": "arcanine-hisui",
@@ -2244,7 +2244,7 @@
     "isGimmick": false
   },
   {
-    "id": 65,
+    "id": 10037,
     "name": "Mega Alakazam",
     "slug": "alakazam-mega",
     "apiName": "alakazam-mega",
@@ -2431,7 +2431,7 @@
     "isGimmick": false
   },
   {
-    "id": 71,
+    "id": 10279,
     "name": "Mega Victreebel",
     "slug": "victreebel-mega",
     "apiName": "victreebel-mega",
@@ -2526,7 +2526,7 @@
     "isGimmick": false
   },
   {
-    "id": 74,
+    "id": 10109,
     "name": "Alolan Geodude",
     "slug": "geodude-alola",
     "apiName": "geodude-alola",
@@ -2574,7 +2574,7 @@
     "isGimmick": false
   },
   {
-    "id": 75,
+    "id": 10110,
     "name": "Alolan Graveler",
     "slug": "graveler-alola",
     "apiName": "graveler-alola",
@@ -2622,7 +2622,7 @@
     "isGimmick": false
   },
   {
-    "id": 76,
+    "id": 10111,
     "name": "Alolan Golem",
     "slug": "golem-alola",
     "apiName": "golem-alola",
@@ -2814,7 +2814,7 @@
     "isGimmick": false
   },
   {
-    "id": 80,
+    "id": 10071,
     "name": "Mega Slowbro",
     "slug": "slowbro-mega",
     "apiName": "slowbro-mega",
@@ -3075,7 +3075,7 @@
     "isGimmick": false
   },
   {
-    "id": 88,
+    "id": 10112,
     "name": "Alolan Grimer",
     "slug": "grimer-alola",
     "apiName": "grimer-alola",
@@ -3123,7 +3123,7 @@
     "isGimmick": false
   },
   {
-    "id": 89,
+    "id": 10113,
     "name": "Alolan Muk",
     "slug": "muk-alola",
     "apiName": "muk-alola",
@@ -3261,7 +3261,7 @@
     "isGimmick": false
   },
   {
-    "id": 94,
+    "id": 10038,
     "name": "Mega Gengar",
     "slug": "gengar-mega",
     "apiName": "gengar-mega",
@@ -3473,7 +3473,7 @@
     "isGimmick": false
   },
   {
-    "id": 100,
+    "id": 10231,
     "name": "Hisuian Voltorb",
     "slug": "voltorb-hisui",
     "apiName": "voltorb-hisui",
@@ -3521,7 +3521,7 @@
     "isGimmick": false
   },
   {
-    "id": 101,
+    "id": 10232,
     "name": "Hisuian Electrode",
     "slug": "electrode-hisui",
     "apiName": "electrode-hisui",
@@ -3591,7 +3591,7 @@
     "isGimmick": false
   },
   {
-    "id": 103,
+    "id": 10114,
     "name": "Alolan Exeggutor",
     "slug": "exeggutor-alola",
     "apiName": "exeggutor-alola",
@@ -3662,7 +3662,7 @@
     "isGimmick": false
   },
   {
-    "id": 105,
+    "id": 10115,
     "name": "Alolan Marowak",
     "slug": "marowak-alola",
     "apiName": "marowak-alola",
@@ -3686,7 +3686,7 @@
     "isGimmick": false
   },
   {
-    "id": 105,
+    "id": 10115,
     "name": "Alolan Marowak-Totem",
     "slug": "marowak-alola-totem",
     "apiName": "marowak-alola",
@@ -3972,7 +3972,7 @@
     "isGimmick": false
   },
   {
-    "id": 115,
+    "id": 10039,
     "name": "Mega Kangaskhan",
     "slug": "kangaskhan-mega",
     "apiName": "kangaskhan-mega",
@@ -4138,7 +4138,7 @@
     "isGimmick": false
   },
   {
-    "id": 121,
+    "id": 10280,
     "name": "Mega Starmie",
     "slug": "starmie-mega",
     "apiName": "starmie-mega",
@@ -4328,7 +4328,7 @@
     "isGimmick": false
   },
   {
-    "id": 127,
+    "id": 10040,
     "name": "Mega Pinsir",
     "slug": "pinsir-mega",
     "apiName": "pinsir-mega",
@@ -4374,7 +4374,7 @@
     "isGimmick": false
   },
   {
-    "id": 128,
+    "id": 10250,
     "name": "Paldean Tauros-Combat",
     "slug": "tauros-paldea-combat",
     "apiName": "tauros-paldea-combat-breed",
@@ -4398,7 +4398,7 @@
     "isGimmick": false
   },
   {
-    "id": 128,
+    "id": 10251,
     "name": "Paldean Tauros (Blaze)",
     "slug": "tauros-paldea-blaze",
     "apiName": "tauros-paldea-blaze-breed",
@@ -4422,7 +4422,7 @@
     "isGimmick": false
   },
   {
-    "id": 128,
+    "id": 10252,
     "name": "Paldean Tauros (Aqua)",
     "slug": "tauros-paldea-aqua",
     "apiName": "tauros-paldea-aqua-breed",
@@ -4492,7 +4492,7 @@
     "isGimmick": false
   },
   {
-    "id": 130,
+    "id": 10041,
     "name": "Mega Gyarados",
     "slug": "gyarados-mega",
     "apiName": "gyarados-mega",
@@ -4870,7 +4870,7 @@
     "isGimmick": false
   },
   {
-    "id": 142,
+    "id": 10042,
     "name": "Mega Aerodactyl",
     "slug": "aerodactyl-mega",
     "apiName": "aerodactyl-mega",
@@ -5144,7 +5144,7 @@
     "isGimmick": false
   },
   {
-    "id": 149,
+    "id": 10281,
     "name": "Mega Dragonite",
     "slug": "dragonite-mega",
     "apiName": "dragonite-mega",
@@ -5190,7 +5190,7 @@
     "isGimmick": false
   },
   {
-    "id": 150,
+    "id": 10043,
     "name": "Mega Mewtwo X",
     "slug": "mewtwo-mega-x",
     "apiName": "mewtwo-mega-x",
@@ -5212,7 +5212,7 @@
     "isGimmick": true
   },
   {
-    "id": 150,
+    "id": 10044,
     "name": "Mega Mewtwo Y",
     "slug": "mewtwo-mega-y",
     "apiName": "mewtwo-mega-y",
@@ -5325,7 +5325,7 @@
     "isGimmick": false
   },
   {
-    "id": 154,
+    "id": 10282,
     "name": "Mega Meganium",
     "slug": "meganium-mega",
     "apiName": "meganium-mega",
@@ -5417,7 +5417,7 @@
     "isGimmick": false
   },
   {
-    "id": 157,
+    "id": 10233,
     "name": "Hisuian Typhlosion",
     "slug": "typhlosion-hisui",
     "apiName": "typhlosion-hisui",
@@ -5509,7 +5509,7 @@
     "isGimmick": false
   },
   {
-    "id": 160,
+    "id": 10283,
     "name": "Mega Feraligatr",
     "slug": "feraligatr-mega",
     "apiName": "feraligatr-mega",
@@ -6031,7 +6031,7 @@
     "isGimmick": false
   },
   {
-    "id": 181,
+    "id": 10045,
     "name": "Mega Ampharos",
     "slug": "ampharos-mega",
     "apiName": "ampharos-mega",
@@ -6364,7 +6364,7 @@
     "isGimmick": false
   },
   {
-    "id": 194,
+    "id": 10253,
     "name": "Paldean Wooper",
     "slug": "wooper-paldea",
     "apiName": "wooper-paldea",
@@ -6739,7 +6739,7 @@
     "isGimmick": false
   },
   {
-    "id": 208,
+    "id": 10072,
     "name": "Mega Steelix",
     "slug": "steelix-mega",
     "apiName": "steelix-mega",
@@ -6833,7 +6833,7 @@
     "isGimmick": false
   },
   {
-    "id": 211,
+    "id": 10234,
     "name": "Hisuian Qwilfish",
     "slug": "qwilfish-hisui",
     "apiName": "qwilfish-hisui",
@@ -6881,7 +6881,7 @@
     "isGimmick": false
   },
   {
-    "id": 212,
+    "id": 10046,
     "name": "Mega Scizor",
     "slug": "scizor-mega",
     "apiName": "scizor-mega",
@@ -6951,7 +6951,7 @@
     "isGimmick": false
   },
   {
-    "id": 214,
+    "id": 10047,
     "name": "Mega Heracross",
     "slug": "heracross-mega",
     "apiName": "heracross-mega",
@@ -6997,7 +6997,7 @@
     "isGimmick": false
   },
   {
-    "id": 215,
+    "id": 10235,
     "name": "Hisuian Sneasel",
     "slug": "sneasel-hisui",
     "apiName": "sneasel-hisui",
@@ -7332,7 +7332,7 @@
     "isGimmick": false
   },
   {
-    "id": 227,
+    "id": 10284,
     "name": "Mega Skarmory",
     "slug": "skarmory-mega",
     "apiName": "skarmory-mega",
@@ -7404,7 +7404,7 @@
     "isGimmick": false
   },
   {
-    "id": 229,
+    "id": 10048,
     "name": "Mega Houndoom",
     "slug": "houndoom-mega",
     "apiName": "houndoom-mega",
@@ -7871,7 +7871,7 @@
     "isGimmick": false
   },
   {
-    "id": 248,
+    "id": 10049,
     "name": "Mega Tyranitar",
     "slug": "tyranitar-mega",
     "apiName": "tyranitar-mega",
@@ -8030,7 +8030,7 @@
     "isGimmick": false
   },
   {
-    "id": 254,
+    "id": 10065,
     "name": "Mega Sceptile",
     "slug": "sceptile-mega",
     "apiName": "sceptile-mega",
@@ -8121,7 +8121,7 @@
     "isGimmick": false
   },
   {
-    "id": 257,
+    "id": 10050,
     "name": "Mega Blaziken",
     "slug": "blaziken-mega",
     "apiName": "blaziken-mega",
@@ -8212,7 +8212,7 @@
     "isGimmick": false
   },
   {
-    "id": 260,
+    "id": 10064,
     "name": "Mega Swampert",
     "slug": "swampert-mega",
     "apiName": "swampert-mega",
@@ -8801,7 +8801,7 @@
     "isGimmick": false
   },
   {
-    "id": 282,
+    "id": 10051,
     "name": "Mega Gardevoir",
     "slug": "gardevoir-mega",
     "apiName": "gardevoir-mega",
@@ -9288,7 +9288,7 @@
     "isGimmick": false
   },
   {
-    "id": 302,
+    "id": 10066,
     "name": "Mega Sableye",
     "slug": "sableye-mega",
     "apiName": "sableye-mega",
@@ -9334,7 +9334,7 @@
     "isGimmick": false
   },
   {
-    "id": 303,
+    "id": 10052,
     "name": "Mega Mawile",
     "slug": "mawile-mega",
     "apiName": "mawile-mega",
@@ -9428,7 +9428,7 @@
     "isGimmick": false
   },
   {
-    "id": 306,
+    "id": 10053,
     "name": "Mega Aggron",
     "slug": "aggron-mega",
     "apiName": "aggron-mega",
@@ -9496,7 +9496,7 @@
     "isGimmick": false
   },
   {
-    "id": 308,
+    "id": 10054,
     "name": "Mega Medicham",
     "slug": "medicham-mega",
     "apiName": "medicham-mega",
@@ -9566,7 +9566,7 @@
     "isGimmick": false
   },
   {
-    "id": 310,
+    "id": 10055,
     "name": "Mega Manectric",
     "slug": "manectric-mega",
     "apiName": "manectric-mega",
@@ -9800,7 +9800,7 @@
     "isGimmick": false
   },
   {
-    "id": 319,
+    "id": 10070,
     "name": "Mega Sharpedo",
     "slug": "sharpedo-mega",
     "apiName": "sharpedo-mega",
@@ -9918,7 +9918,7 @@
     "isGimmick": false
   },
   {
-    "id": 323,
+    "id": 10087,
     "name": "Mega Camerupt",
     "slug": "camerupt-mega",
     "apiName": "camerupt-mega",
@@ -10196,7 +10196,7 @@
     "isGimmick": false
   },
   {
-    "id": 334,
+    "id": 10067,
     "name": "Mega Altaria",
     "slug": "altaria-mega",
     "apiName": "altaria-mega",
@@ -10747,7 +10747,7 @@
     "isGimmick": false
   },
   {
-    "id": 354,
+    "id": 10056,
     "name": "Mega Banette",
     "slug": "banette-mega",
     "apiName": "banette-mega",
@@ -10861,7 +10861,7 @@
     "isGimmick": false
   },
   {
-    "id": 358,
+    "id": 10306,
     "name": "Mega Chimecho",
     "slug": "chimecho-mega",
     "apiName": "chimecho-mega",
@@ -10907,7 +10907,7 @@
     "isGimmick": false
   },
   {
-    "id": 359,
+    "id": 10057,
     "name": "Mega Absol",
     "slug": "absol-mega",
     "apiName": "absol-mega",
@@ -10929,7 +10929,7 @@
     "isGimmick": true
   },
   {
-    "id": 359,
+    "id": 10307,
     "name": "Mega Absol-Z",
     "slug": "absol-mega-z",
     "apiName": "absol-mega-z",
@@ -11022,7 +11022,7 @@
     "isGimmick": false
   },
   {
-    "id": 362,
+    "id": 10074,
     "name": "Mega Glalie",
     "slug": "glalie-mega",
     "apiName": "glalie-mega",
@@ -11301,7 +11301,7 @@
     "isGimmick": false
   },
   {
-    "id": 373,
+    "id": 10089,
     "name": "Mega Salamence",
     "slug": "salamence-mega",
     "apiName": "salamence-mega",
@@ -11392,7 +11392,7 @@
     "isGimmick": false
   },
   {
-    "id": 376,
+    "id": 10076,
     "name": "Mega Metagross",
     "slug": "metagross-mega",
     "apiName": "metagross-mega",
@@ -11505,7 +11505,7 @@
     "isGimmick": false
   },
   {
-    "id": 380,
+    "id": 10062,
     "name": "Mega Latias",
     "slug": "latias-mega",
     "apiName": "latias-mega",
@@ -11549,7 +11549,7 @@
     "isGimmick": false
   },
   {
-    "id": 381,
+    "id": 10063,
     "name": "Mega Latios",
     "slug": "latios-mega",
     "apiName": "latios-mega",
@@ -11681,7 +11681,7 @@
     "isGimmick": false
   },
   {
-    "id": 384,
+    "id": 10079,
     "name": "Mega Rayquaza",
     "slug": "rayquaza-mega",
     "apiName": "rayquaza-mega",
@@ -12089,7 +12089,7 @@
     "isGimmick": false
   },
   {
-    "id": 398,
+    "id": 10308,
     "name": "Mega Staraptor",
     "slug": "staraptor-mega",
     "apiName": "staraptor-mega",
@@ -12883,7 +12883,7 @@
     "isGimmick": false
   },
   {
-    "id": 428,
+    "id": 10088,
     "name": "Mega Lopunny",
     "slug": "lopunny-mega",
     "apiName": "lopunny-mega",
@@ -13305,7 +13305,7 @@
     "isGimmick": false
   },
   {
-    "id": 445,
+    "id": 10058,
     "name": "Mega Garchomp",
     "slug": "garchomp-mega",
     "apiName": "garchomp-mega",
@@ -13327,7 +13327,7 @@
     "isGimmick": true
   },
   {
-    "id": 445,
+    "id": 10309,
     "name": "Mega Garchomp-Z",
     "slug": "garchomp-mega-z",
     "apiName": "garchomp-mega-z",
@@ -13421,7 +13421,7 @@
     "isGimmick": false
   },
   {
-    "id": 448,
+    "id": 10059,
     "name": "Mega Lucario",
     "slug": "lucario-mega",
     "apiName": "lucario-mega",
@@ -13443,7 +13443,7 @@
     "isGimmick": true
   },
   {
-    "id": 448,
+    "id": 10310,
     "name": "Mega Lucario-Z",
     "slug": "lucario-mega-z",
     "apiName": "lucario-mega-z",
@@ -13747,7 +13747,7 @@
     "isGimmick": false
   },
   {
-    "id": 460,
+    "id": 10060,
     "name": "Mega Abomasnow",
     "slug": "abomasnow-mega",
     "apiName": "abomasnow-mega",
@@ -14124,7 +14124,7 @@
     "isGimmick": false
   },
   {
-    "id": 475,
+    "id": 10068,
     "name": "Mega Gallade",
     "slug": "gallade-mega",
     "apiName": "gallade-mega",
@@ -14216,7 +14216,7 @@
     "isGimmick": false
   },
   {
-    "id": 478,
+    "id": 10285,
     "name": "Mega Froslass",
     "slug": "froslass-mega",
     "apiName": "froslass-mega",
@@ -14552,7 +14552,7 @@
     "isGimmick": false
   },
   {
-    "id": 485,
+    "id": 10311,
     "name": "Mega Heatran",
     "slug": "heatran-mega",
     "apiName": "heatran-mega",
@@ -14730,7 +14730,7 @@
     "isGimmick": false
   },
   {
-    "id": 491,
+    "id": 10312,
     "name": "Mega Darkrai",
     "slug": "darkrai-mega",
     "apiName": "darkrai-mega",
@@ -15352,7 +15352,7 @@
     "isGimmick": false
   },
   {
-    "id": 500,
+    "id": 10286,
     "name": "Mega Emboar",
     "slug": "emboar-mega",
     "apiName": "emboar-mega",
@@ -15444,7 +15444,7 @@
     "isGimmick": false
   },
   {
-    "id": 503,
+    "id": 10236,
     "name": "Hisuian Samurott",
     "slug": "samurott-hisui",
     "apiName": "samurott-hisui",
@@ -16109,7 +16109,7 @@
     "isGimmick": false
   },
   {
-    "id": 530,
+    "id": 10287,
     "name": "Mega Excadrill",
     "slug": "excadrill-mega",
     "apiName": "excadrill-mega",
@@ -16157,7 +16157,7 @@
     "isGimmick": false
   },
   {
-    "id": 531,
+    "id": 10069,
     "name": "Mega Audino",
     "slug": "audino-mega",
     "apiName": "audino-mega",
@@ -16515,7 +16515,7 @@
     "isGimmick": false
   },
   {
-    "id": 545,
+    "id": 10288,
     "name": "Mega Scolipede",
     "slug": "scolipede-mega",
     "apiName": "scolipede-mega",
@@ -16635,7 +16635,7 @@
     "isGimmick": false
   },
   {
-    "id": 549,
+    "id": 10237,
     "name": "Hisuian Lilligant",
     "slug": "lilligant-hisui",
     "apiName": "lilligant-hisui",
@@ -17059,7 +17059,7 @@
     "isGimmick": false
   },
   {
-    "id": 560,
+    "id": 10289,
     "name": "Mega Scrafty",
     "slug": "scrafty-mega",
     "apiName": "scrafty-mega",
@@ -17359,7 +17359,7 @@
     "isGimmick": false
   },
   {
-    "id": 570,
+    "id": 10238,
     "name": "Hisuian Zorua",
     "slug": "zorua-hisui",
     "apiName": "zorua-hisui",
@@ -17403,7 +17403,7 @@
     "isGimmick": false
   },
   {
-    "id": 571,
+    "id": 10239,
     "name": "Hisuian Zoroark",
     "slug": "zoroark-hisui",
     "apiName": "zoroark-hisui",
@@ -18205,7 +18205,7 @@
     "isGimmick": false
   },
   {
-    "id": 604,
+    "id": 10290,
     "name": "Mega Eelektross",
     "slug": "eelektross-mega",
     "apiName": "eelektross-mega",
@@ -18347,7 +18347,7 @@
     "isGimmick": false
   },
   {
-    "id": 609,
+    "id": 10291,
     "name": "Mega Chandelure",
     "slug": "chandelure-mega",
     "apiName": "chandelure-mega",
@@ -18727,7 +18727,7 @@
     "isGimmick": false
   },
   {
-    "id": 623,
+    "id": 10313,
     "name": "Mega Golurk",
     "slug": "golurk-mega",
     "apiName": "golurk-mega",
@@ -18871,7 +18871,7 @@
     "isGimmick": false
   },
   {
-    "id": 628,
+    "id": 10240,
     "name": "Hisuian Braviary",
     "slug": "braviary-hisui",
     "apiName": "braviary-hisui",
@@ -19681,7 +19681,7 @@
     "isGimmick": false
   },
   {
-    "id": 652,
+    "id": 10292,
     "name": "Mega Chesnaught",
     "slug": "chesnaught-mega",
     "apiName": "chesnaught-mega",
@@ -19772,7 +19772,7 @@
     "isGimmick": false
   },
   {
-    "id": 655,
+    "id": 10293,
     "name": "Mega Delphox",
     "slug": "delphox-mega",
     "apiName": "delphox-mega",
@@ -19908,7 +19908,7 @@
     "isGimmick": true
   },
   {
-    "id": 658,
+    "id": 10294,
     "name": "Mega Greninja",
     "slug": "greninja-mega",
     "apiName": "greninja-mega",
@@ -20166,7 +20166,7 @@
     "isGimmick": false
   },
   {
-    "id": 668,
+    "id": 10295,
     "name": "Mega Pyroar",
     "slug": "pyroar-mega",
     "apiName": "pyroar-mega",
@@ -20470,7 +20470,7 @@
     "isGimmick": false
   },
   {
-    "id": 678,
+    "id": 10314,
     "name": "Mega Meowstic-M",
     "slug": "meowstic-m-mega",
     "apiName": "meowstic-male",
@@ -20494,7 +20494,7 @@
     "isGimmick": true
   },
   {
-    "id": 678,
+    "id": 10314,
     "name": "Mega Meowstic-F",
     "slug": "meowstic-f-mega",
     "apiName": "meowstic-female",
@@ -20746,7 +20746,7 @@
     "isGimmick": false
   },
   {
-    "id": 687,
+    "id": 10297,
     "name": "Mega Malamar",
     "slug": "malamar-mega",
     "apiName": "malamar-mega",
@@ -20818,7 +20818,7 @@
     "isGimmick": false
   },
   {
-    "id": 689,
+    "id": 10298,
     "name": "Mega Barbaracle",
     "slug": "barbaracle-mega",
     "apiName": "barbaracle-mega",
@@ -20890,7 +20890,7 @@
     "isGimmick": false
   },
   {
-    "id": 691,
+    "id": 10299,
     "name": "Mega Dragalge",
     "slug": "dragalge-mega",
     "apiName": "dragalge-mega",
@@ -21145,7 +21145,7 @@
     "isGimmick": false
   },
   {
-    "id": 701,
+    "id": 10300,
     "name": "Mega Hawlucha",
     "slug": "hawlucha-mega",
     "apiName": "hawlucha-mega",
@@ -21264,7 +21264,7 @@
     "isGimmick": false
   },
   {
-    "id": 705,
+    "id": 10241,
     "name": "Hisuian Sliggoo",
     "slug": "sliggoo-hisui",
     "apiName": "sliggoo-hisui",
@@ -21312,7 +21312,7 @@
     "isGimmick": false
   },
   {
-    "id": 706,
+    "id": 10242,
     "name": "Hisuian Goodra",
     "slug": "goodra-hisui",
     "apiName": "goodra-hisui",
@@ -21503,7 +21503,7 @@
     "isGimmick": false
   },
   {
-    "id": 713,
+    "id": 10243,
     "name": "Hisuian Avalugg",
     "slug": "avalugg-hisui",
     "apiName": "avalugg-hisui",
@@ -21687,7 +21687,7 @@
     "isGimmick": true
   },
   {
-    "id": 718,
+    "id": 10301,
     "name": "Mega Zygarde",
     "slug": "zygarde-mega",
     "apiName": "zygarde-mega",
@@ -21731,7 +21731,7 @@
     "isGimmick": false
   },
   {
-    "id": 719,
+    "id": 10075,
     "name": "Mega Diancie",
     "slug": "diancie-mega",
     "apiName": "diancie-mega",
@@ -21888,7 +21888,7 @@
     "isGimmick": false
   },
   {
-    "id": 724,
+    "id": 10244,
     "name": "Hisuian Decidueye",
     "slug": "decidueye-hisui",
     "apiName": "decidueye-hisui",
@@ -22327,7 +22327,7 @@
     "isGimmick": false
   },
   {
-    "id": 740,
+    "id": 10315,
     "name": "Mega Crabominable",
     "slug": "crabominable-mega",
     "apiName": "crabominable-mega",
@@ -23253,7 +23253,7 @@
     "isGimmick": false
   },
   {
-    "id": 768,
+    "id": 10316,
     "name": "Mega Golisopod",
     "slug": "golisopod-mega",
     "apiName": "golisopod-mega",
@@ -24032,7 +24032,7 @@
     "isGimmick": false
   },
   {
-    "id": 780,
+    "id": 10302,
     "name": "Mega Drampa",
     "slug": "drampa-mega",
     "apiName": "drampa-mega",
@@ -24748,7 +24748,7 @@
     "isGimmick": false
   },
   {
-    "id": 807,
+    "id": 10319,
     "name": "Mega Zeraora",
     "slug": "zeraora-mega",
     "apiName": "zeraora-mega",
@@ -26676,7 +26676,7 @@
     "isGimmick": false
   },
   {
-    "id": 870,
+    "id": 10303,
     "name": "Mega Falinks",
     "slug": "falinks-mega",
     "apiName": "falinks-mega",
@@ -28945,7 +28945,7 @@
     "isGimmick": false
   },
   {
-    "id": 952,
+    "id": 10320,
     "name": "Mega Scovillain",
     "slug": "scovillain-mega",
     "apiName": "scovillain-mega",
@@ -29411,7 +29411,7 @@
     "isGimmick": false
   },
   {
-    "id": 970,
+    "id": 10321,
     "name": "Mega Glimmora",
     "slug": "glimmora-mega",
     "apiName": "glimmora-mega",
@@ -30075,7 +30075,7 @@
     "isGimmick": false
   },
   {
-    "id": 998,
+    "id": 10325,
     "name": "Mega Baxcalibur",
     "slug": "baxcalibur-mega",
     "apiName": "baxcalibur-mega",

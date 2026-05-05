@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function PokeballUI({p, isLoaded, handleLoad, isClickable}) {
   return (
       isClickable === true ? 
-      <Link to={`/${p.name}`}>
+      <Link to={`/${p.name}-${p.id}`}>
       <div
         key={p.name}
         className=" flex relative flex-col bg-bg-light dark:bg-bg-dark items-center justify-center rounded-full border-2 border-bg-second-light dark:border-bg-second-dark w-30 h-30 hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"

@@ -2,7 +2,7 @@ import { PokemonsGrid } from './components/PokemonsGrid.jsx'
 import { useTheme } from './hooks/useTheme'
 import { useGen } from './hooks/useGen'
 import { PokemonInfo } from './components/PokemonInfo.jsx'
-import { Route, Routes } from 'react-router-dom'
+import { Link, Route, Routes } from 'react-router-dom'
 import { useState } from 'react'
 import { getGenerations } from './services/getGenerations.js'
 import { useEffect } from 'react'
@@ -29,9 +29,11 @@ function App() {
     <>
       <div className="flex flex-col min-h-screen w-full bg-bg-light dark:bg-bg-dark pt-6">
         <header className="flex items-center justify-center">
-          <h1 className="text-text-primary-light dark:text-text-primary-dark items-center text-3xl text-center pb-5 font-display">
-            Pokemon Center
-          </h1>
+          <Link to={'/'}>
+            <h1 className="text-text-primary-light dark:text-text-primary-dark items-center text-3xl text-center pb-5 font-display">
+              Pokemon Center
+            </h1>
+          </Link>
           <div className="flex items-center gap-2 p-1 rounded-lg bg-background-light dark:bg-surface-dark border border-bor-light dark:border-bor-dark ">
             <button
               onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}

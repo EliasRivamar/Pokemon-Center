@@ -18,7 +18,7 @@ function getColor(stat){
 
 export function ShowStat({name, stat}) {
   return (
-    <div className="grid grid-cols-[108px_60%] gap-2 place-items-center">
+    <div className="grid grid-cols-[108px_70%] gap-2 place-items-center">
       <h1 className="font-display text-xl text-black dark:text-white text-center">
         {name}
       </h1>

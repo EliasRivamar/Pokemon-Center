@@ -6,7 +6,7 @@ export function PokeballUI({p, isLoaded, handleLoad, isClickable}) {
       <Link to={`/${p.name}-${p.id}`}>
       <div
         key={p.name}
-        className=" flex relative flex-col bg-bg-light dark:bg-bg-dark items-center justify-center rounded-full border-2 border-bg-second-light dark:border-bg-second-dark w-30 h-30 hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
+        className=" flex relative flex-col bg-bg-light dark:bg-bg-dark items-center justify-center rounded-full border-2 border-bg-second-light dark:border-bg-second-dark w-25 h-25 lg:w-30 lg:h-30 hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer"
       >
         <div
           className={`absolute text-text-primary-light dark:text-text-primary-dark -mt-23 -ml-24 lg:-ml-27 z-20 text-sm font-bold transition-opacity duration-1000 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
@@ -24,8 +24,8 @@ export function PokeballUI({p, isLoaded, handleLoad, isClickable}) {
           src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.id}.png`}
           alt={p.name}
         />
-        <div className="bg-bg-light dark:bg-bg-dark w-10 h-10 rounded-full absolute z-21 -mt-1 lg:mt-1"></div>
-        <div className="bg-bg-second-light dark:bg-bg-second-dark w-full lg:w-30 h-14.5 lg:h-15 rounded-b-[99999px] absolute mt-14.5 lg:mt-15 z-20"></div>
+        <div className="bg-bg-light dark:bg-bg-dark w-10 h-10 rounded-full absolute z-21 -mt-3 lg:mt-1"></div>
+        <div className="bg-bg-second-light dark:bg-bg-second-dark w-full lg:w-30 h-13 lg:h-15 rounded-b-[99999px] absolute mt-11 lg:mt-15 z-20"></div>
         <p
           className={`text-center text-text-primary-dark dark:text-text-primary-dark z-21 -mt-4 mb-3 lg:-mt-3 lg:mb-3 transition-opacity duration-1000 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
         >
@@ -55,7 +55,7 @@ export function PokeballUI({p, isLoaded, handleLoad, isClickable}) {
           alt={p.name}
         />
         <div className="bg-bg-light dark:bg-bg-dark w-10 h-10 rounded-full absolute z-21 -mt-1 lg:mt-1"></div>
-        <div className="bg-bg-second-light dark:bg-bg-second-dark w-full lg:w-30 h-14.5 lg:h-15 rounded-b-[99999px] absolute mt-14.5 lg:mt-15 z-20"></div>
+        <div className="bg-bg-second-light dark:bg-bg-second-dark w-25 lg:w-30 h-14.5 lg:h-15 rounded-b-[99999px] absolute mt-0 lg:mt-15 z-20"></div>
         <p
           className={`text-center text-text-primary-dark dark:text-text-primary-dark z-21 -mt-4 mb-3 lg:-mt-3 lg:mb-3 transition-opacity duration-1000 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
         >

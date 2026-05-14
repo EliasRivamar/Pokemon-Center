@@ -10,12 +10,13 @@ import { PokeballUI } from './PokeballGrid'
 import { getDescription } from '../services/getDescription'
 import typeAn from '../data/type-data.json'
 import { TypeTable } from './TypeTable'
+import { ButtonPhone } from './ButtonsPhone'
 
 function getTypeImage(type) {
   const numType = typeNum.find((t) => t.type === type)
   return numType.num
 }
-function calculateDefense(pokemon, typeNameStaticDefense, tableTypesDefense){
+function calculateDefense(pokemon, typeNameStaticDefense, tableTypesDefense) {
   pokemon.types.map((type) => {
     typeAn.types.map((typeName) => {
       typeNameStaticDefense[typeName] =
@@ -34,19 +35,18 @@ function calculateDefense(pokemon, typeNameStaticDefense, tableTypesDefense){
         tableTypesDefense.x1.push(typeName)
         break
       case 0.5:
-        tableTypesDefense["x0.5"].push(typeName)
+        tableTypesDefense['x0.5'].push(typeName)
         break
       case 0.25:
-        tableTypesDefense["x0.25"].push(typeName)
+        tableTypesDefense['x0.25'].push(typeName)
         break
       case 0:
         tableTypesDefense.x0.push(typeName)
         break
-  
     }
   })
 }
-function calculateAttack(pokemon, typeNameStaticAttack, tableTypesAttack){
+function calculateAttack(pokemon, typeNameStaticAttack, tableTypesAttack) {
   pokemon.types.map((type) => {
     typeAn.types.map((typeName) => {
       typeNameStaticAttack[typeName] =
@@ -65,20 +65,19 @@ function calculateAttack(pokemon, typeNameStaticAttack, tableTypesAttack){
         tableTypesAttack.x1.push(typeName)
         break
       case 0.5:
-        tableTypesAttack["x0.5"].push(typeName)
+        tableTypesAttack['x0.5'].push(typeName)
         break
       case 0.25:
-        tableTypesAttack["x0.25"].push(typeName)
+        tableTypesAttack['x0.25'].push(typeName)
         break
       case 0:
         tableTypesAttack.x0.push(typeName)
         break
-  
     }
   })
 }
 
-export function PokemonInfo({ loadedImg, handleLoad }) {
+export function PokemonInfoPhone({ loadedImg, handleLoad }) {
   const { name } = useParams()
   const [isMega, setIsMega] = useState(false)
   const [descriptionPoke, setDescriptionPoke] = useState([])
@@ -139,10 +138,25 @@ export function PokemonInfo({ loadedImg, handleLoad }) {
     Fairy: 1,
     Dark: 1,
   }
-  const tableTypesDefense = { "x4": [], "x2": [], "x1": [], "x0.5": [], "x0.25": [], "x0": [] }
-  const tableTypesAttack = { "x4": [], "x2": [], "x1": [], "x0.5": [], "x0.25": [], "x0": [] }
+  const tableTypesDefense = {
+    x4: [],
+    x2: [],
+    x1: [],
+    'x0.5': [],
+    'x0.25': [],
+    x0: [],
+  }
+  const tableTypesAttack = {
+    x4: [],
+    x2: [],
+    x1: [],
+    'x0.5': [],
+    'x0.25': [],
+    x0: [],
+  }
 
   const [pokemonInfo, setPokemonInfo] = useState([])
+  const [option, setOption] = useState('Info')
   useEffect(() => {
     async function getInfoPokemon() {
       setIsFallback(false)
@@ -175,122 +189,77 @@ export function PokemonInfo({ loadedImg, handleLoad }) {
 
   return (
     <article className="w-full h-full">
-      <div className="grid justify-center lg:grid-cols-3 w-full h-[50vh] lg:h-[60vh] bg-bg-light dark:bg-bg-dark">
-        <div className="basis-2/5 lg:flex lg:flex-col hidden place-items-center m-5">
-          <section className="grid grid-rows-6 w-full h-full">
-            <ShowStat name={'PS'} stat={stats.stats.hp}></ShowStat>
-            <ShowStat name={'Attack'} stat={stats.stats.atk}></ShowStat>
-            <ShowStat name={'Defense'} stat={stats.stats.def}></ShowStat>
-            <ShowStat name={'Sp. Atk'} stat={stats.stats.spa}></ShowStat>
-            <ShowStat name={'Sp. Def'} stat={stats.stats.spd}></ShowStat>
-            <ShowStat name={'Speed'} stat={stats.stats.spe}></ShowStat>
-          </section>
-          <div className="flex gap-2 justify-center mr-15 scale-85">
-            {!isMega
-              ? evoLine.evolutionLine.map((evo) => {
-                  const isLoaded = loadedImg.has(evo.name)
-                  return evo.name === pokemon.name ? (
-                    <PokeballUI
-                      p={evo}
-                      isLoaded={isLoaded}
-                      handleLoad={handleLoad}
-                      isClikable={false}
-                    />
-                  ) : (
-                    <PokeballUI
-                      p={evo}
-                      isLoaded={isLoaded}
-                      handleLoad={handleLoad}
-                      isClickable={true}
-                    />
-                  )
-                })
-              : evoLine.mega.map((evo) => {
-                  const isLoaded = loadedImg.has(evo.name)
-                  return evo.name === pokemon.name ? (
-                    <PokeballUI
-                      p={evo}
-                      isLoaded={isLoaded}
-                      handleLoad={handleLoad}
-                      isClikable={false}
-                    />
-                  ) : (
-                    <PokeballUI
-                      p={evo}
-                      isLoaded={isLoaded}
-                      handleLoad={handleLoad}
-                      isClickable={true}
-                    />
-                  )
-                })}
-          </div>
-        </div>
+      <div className="justify-center w-full h-[50vh] bg-bg-light dark:bg-bg-dark">
+        {/* High Part */}
         <div
           key={`${stats.slug}`}
-          className="flex flex-col lg:basis-1/5 items-center relative p-2"
+          className="flex flex-col items-center h-full relative p-2"
         >
-          <h1 className="font-display text-5xl text-black dark:text-white text-center z-20">
-            {stats.name}
-          </h1>
+            <h1 className="font-display text-5xl text-black dark:text-white text-center z-20">
+              {stats.name}
+            </h1>
+          <div className='flex w-full relative items-center justify-center'>
+            <div className="flex gap-2 absolute right-2 mb-3">
+              {isMega === false ? (
+                evoLine.mega?.length > 0 ? (
+                  <Link
+                    to={`/${evoLine.mega[0].name}-${evoLine.mega[0].id}`}
+                    onClick={() => setIsMega(true)} className='z-30'
+                  >
+                    <img
+                      className="size-10 grayscale hover:grayscale-0 transition-all ease-in-out duration-400"
+                      src={'../../public/megaIconIdle.png'}
+                      alt={'mega'}
+                    />
+                  </Link>
+                ) : (
+                  <></>
+                )
+              ) : (
+                <Link
+                  to={`/${evoLine.evolutionLine[0].name}-${evoLine.evolutionLine[0].id}`}
+                  onClick={() => setIsMega(false)} className='z-30'
+                >
+                  <img
+                    className="size-10 hover:grayscale transition-all ease-in-out duration-400"
+                    src={'../../public/megaIconIdle.png'}
+                    alt={'mega'}
+                  />
+                </Link>
+              )}
+            </div>
+          <div className="flex justify-end gap-3">
+            {pokemon.types.map((type) => (
+              <div
+                key={type}
+                className="flex flex-col place-items-center gap-1"
+              >
+                <img
+                  src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/types/generation-viii/sword-shield/small/${getTypeImage(type)}.png`}
+                  className="size-13 items-center mr-1"
+                  alt={`${type}`}
+                />
+                <p className="font-display text-center text-black dark:text-white py-1 px-2">
+                  {type}
+                </p>
+              </div>
+            ))}
+          </div>
+          </div>
           <img
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/${stats.id}.gif`}
             onError={(e) => {
               setIsFallback(true)
               e.target.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${stats.id}.png`
             }}
-            className={`absolute ${isFallback ? 'scale-120 bottom-15' : 'scale-285 bottom-30'}`}
+            className={`absolute ${isFallback ? 'scale-120 bottom-25' : 'scale-285 bottom-25'}`}
             alt={`${stats.slug}`}
           />
         </div>
-        <div className="basis-2/5 lg:flex lg:flex-col hidden place-items-center m-5">
+        <div className="place-items-center m-5">
           <section className="flex flex-col w-full h-full">
-            <div className="flex justify-end gap-3">
-              {pokemon.types.map((type) => (
-                <div
-                  key={type}
-                  className="flex flex-col place-items-center gap-1"
-                >
-                  <img
-                    src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/types/generation-viii/sword-shield/small/${getTypeImage(type)}.png`}
-                    className="size-13 items-center mr-1"
-                    alt={`${type}`}
-                  />
-                  <p className="font-display text-center  text-black dark:text-white py-1 px-2">
-                    {type}
-                  </p>
-                </div>
-              ))}
-              <div className="flex gap-2">
-                {isMega === false ? (
-                  evoLine.mega?.length > 0 ? (
-                    <Link
-                      to={`/${evoLine.mega[0].name}-${evoLine.mega[0].id}`}
-                      onClick={() => setIsMega(true)}
-                    >
-                      <img
-                        className="size-10 grayscale hover:grayscale-0 transition-all ease-in-out duration-400"
-                        src={'../../public/megaIconIdle.png'}
-                        alt={'mega'}
-                      />
-                    </Link>
-                  ) : (
-                    <></>
-                  )
-                ) : (
-                  <Link
-                    to={`/${evoLine.evolutionLine[0].name}-${evoLine.evolutionLine[0].id}`}
-                    onClick={() => setIsMega(false)}
-                  >
-                    <img
-                      className="size-10 hover:grayscale transition-all ease-in-out duration-400"
-                      src={'../../public/megaIconIdle.png'}
-                      alt={'mega'}
-                    />
-                  </Link>
-                )}
-              </div>
-            </div>
-            <div className="flex gap-2 place-content-center items-center w-full min-h-30">
+            {/* Variations Part */}
+            {/* <div className="flex gap-2 place-content-center items-center w-full min-h-30">
               {pokemon.name.includes('Alolan') ? (
                 <></>
               ) : (
@@ -347,8 +316,9 @@ export function PokemonInfo({ loadedImg, handleLoad }) {
                   )
                 })
               )}
-            </div>
-            <div className="flex flex-col w-full h-full justify-end">
+            </div> */}
+            {/* Info Part */}
+            {/* <div className="flex flex-col w-full h-full justify-end">
               <div className="flex gap-4 text-center justify-center">
                 <p className="font-display text-center text-black dark:text-white py-1 px-2">
                   Height: {(pokemonInfo.height * 0.1).toFixed(2)} m
@@ -360,17 +330,23 @@ export function PokemonInfo({ loadedImg, handleLoad }) {
               <p className="font-display text-center text-black dark:text-white py-1 px-2">
                 {description?.flavor_text}
               </p>
-            </div>
+            </div> */}
           </section>
         </div>
       </div>
-      <div className="flex w-full h-auto bg-bg-second-light dark:bg-bg-second-dark rounded-t-4xl p-5">
-        <section className="w-[30%] h-auto">
-          <h1 className="font-display text-2xl text-text-primary-dark dark:text-text-primary-dark text-center">
-            Abilities
-          </h1>
-          <div class="w-full h-0.5 bg-gradient-to-r from-transparent via-bg-light dark:via-bg-dark to-transparent mb-2"></div>
-          <div className="w-full h-auto flex-col">
+      <div className="w-full h-auto bg-bg-second-light dark:bg-bg-second-dark rounded-t-4xl p-5">
+        <header className=" flex w-full h-14 relative">
+          <ButtonPhone option={option} text={"Info"} setOption={setOption}/>
+          <ButtonPhone option={option} text={"Stats"} setOption={setOption}/>
+          <ButtonPhone option={option} text={"Type Char"} setOption={setOption}/>
+          <ButtonPhone option={option} text={"Evos\nVariations"} setOption={setOption}/>
+          </header>
+          <div class="w-full h-0.5 bg-gradient-to-r from-transparent via-bg-light dark:via-bg-dark to-transparent my-2"></div>
+          <div className="relative">
+
+    </div>
+          {/* Abilities */}
+          {/* <div className="w-full h-auto flex-col">
             {abilities.map((a) => {
               const effect = a.flavor_text_entries.find(
                 (e) => e.language.name === 'en',
@@ -389,88 +365,144 @@ export function PokemonInfo({ loadedImg, handleLoad }) {
                 </div>
               )
             })}
-          </div>
-        </section>
-        <section className="w-[70%] h-full">
-          <h1 className="font-display text-2xl text-text-primary-dark dark:text-text-primary-dark text-center">
-            Analysis
-          </h1>
-          <div class="w-full flex h-0.5 bg-gradient-to-r from-transparent via-bg-light dark:via-bg-dark to-transparent m-2"></div>
-          <div className='flex'>
-            <div className=" w-[50%]">
-              <header className='flex place-items-center gap-10 h-10 justify-center w-full'>
+          </div> */}
+        
+            {/* Defensive Matchups */}
+            {/* <div className=" w-[50%]">
+              <header className="flex place-items-center gap-10 h-10 justify-center w-full">
                 <h1 className="font-display text-xl text-text-primary-dark dark:text-text-primary-dark text-center">
                   Defensive Matchups
                 </h1>
               </header>
               <div className="w-full h-auto flex flex-col ">
-                {calculateDefense(pokemon, typeNameStaticDefense, tableTypesDefense)}
+                {calculateDefense(
+                  pokemon,
+                  typeNameStaticDefense,
+                  tableTypesDefense,
+                )}
                 <div class="w-full flex h-0.5 bg-gradient-to-r from-transparent via-bg-light dark:via-bg-dark to-transparent my-2"></div>
                 <h1 className="font-display text-sm text-white">Weaknesses</h1>
                 <div className="grid grid-cols-[10%_90%] items-center gap-2 my-2">
-                  <TypeTable tableTypes={tableTypesDefense} x={"x4"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesDefense}
+                    x={'x4'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
                 <div className="grid grid-cols-[10%_87%] items-center gap-2 my-2">
-                  <TypeTable tableTypes={tableTypesDefense} x={"x2"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesDefense}
+                    x={'x2'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
                 <div class="w-full flex h-0.5 bg-gradient-to-r from-transparent via-bg-light dark:via-bg-dark to-transparent mb-2"></div>
                 <h1 className="font-display text-sm text-white">Neutral</h1>
                 <div className="grid grid-cols-[10%_87%] items-center gap-2 my-2">
-                  <TypeTable tableTypes={tableTypesDefense} x={"x1"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesDefense}
+                    x={'x1'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
                 <div class="w-full flex h-0.5 bg-gradient-to-r from-transparent via-bg-light dark:via-bg-dark to-transparent mb-2"></div>
                 <h1 className="font-display text-sm text-white">Resistence</h1>
                 <div className="grid grid-cols-[10%_87%] items-center gap-2 my-2">
-                  <TypeTable tableTypes={tableTypesDefense} x={"x0.5"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesDefense}
+                    x={'x0.5'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
                 <div className="grid grid-cols-[10%_87%] items-center gap-2 my-2">
-                  <TypeTable tableTypes={tableTypesDefense} x={"x0.25"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesDefense}
+                    x={'x0.25'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
                 <div class="w-full flex h-0.5 bg-gradient-to-r from-transparent via-bg-light dark:via-bg-dark to-transparent mb-2"></div>
                 <h1 className="font-display text-sm text-white">Inmunnities</h1>
                 <div className="grid grid-cols-[10%_87%] items-center gap-2 my-2">
-                  <TypeTable tableTypes={tableTypesDefense} x={"x0"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesDefense}
+                    x={'x0'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
               </div>
-            </div>
-            <div className=" w-[50%]">
-              <header className='flex place-items-center h-10 gap-10 justify-center w-full'>
+            </div> */}
+            
+            {/* Ofenssive Matchups */}
+            {/* <div className=" w-[50%]">
+              <header className="flex place-items-center h-10 gap-10 justify-center w-full">
                 <h1 className="font-display text-xl text-text-primary-dark dark:text-text-primary-dark text-center">
                   Offensive Matchups
                 </h1>
               </header>
               <div className="w-full h-auto flex flex-col ">
-                {calculateAttack(pokemon, typeNameStaticAttack, tableTypesAttack)}
+                {calculateAttack(
+                  pokemon,
+                  typeNameStaticAttack,
+                  tableTypesAttack,
+                )}
                 <div class="w-full flex h-0.5 bg-gradient-to-r from-transparent via-bg-light dark:via-bg-dark to-transparent my-2"></div>
-                <h1 className="font-display text-sm text-white">Super Effective</h1>
+                <h1 className="font-display text-sm text-white">
+                  Super Effective
+                </h1>
                 <div className="grid grid-cols-[10%_90%] items-center gap-2 my-2">
-                  <TypeTable tableTypes={tableTypesAttack} x={"x4"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesAttack}
+                    x={'x4'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
                 <div className="grid grid-cols-[10%_87%] items-center gap-2 my-2">
-                  <TypeTable tableTypes={tableTypesAttack} x={"x2"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesAttack}
+                    x={'x2'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
                 <div class="w-full flex h-0.5 bg-gradient-to-r from-transparent via-bg-light dark:via-bg-dark to-transparent mb-2"></div>
                 <h1 className="font-display text-sm text-white">Neutral</h1>
                 <div className="grid grid-cols-[10%_87%] items-center gap-2 my-2">
-                  <TypeTable tableTypes={tableTypesAttack} x={"x1"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesAttack}
+                    x={'x1'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
                 <div class="w-full flex h-0.5 bg-gradient-to-r from-transparent via-bg-light dark:via-bg-dark to-transparent mb-2"></div>
-                <h1 className="font-display text-sm text-white">No Very Effective</h1>
+                <h1 className="font-display text-sm text-white">
+                  No Very Effective
+                </h1>
                 <div className="grid grid-cols-[10%_87%] items-center gap-2 my-2">
-                  <TypeTable tableTypes={tableTypesAttack} x={"x0.5"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesAttack}
+                    x={'x0.5'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
                 <div className="grid grid-cols-[10%_87%] items-center gap-2 my-2">
-                  <TypeTable tableTypes={tableTypesAttack} x={"x0.25"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesAttack}
+                    x={'x0.25'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
                 <div class="w-full flex h-0.5 bg-gradient-to-r from-transparent via-bg-light dark:via-bg-dark to-transparent mb-2"></div>
                 <h1 className="font-display text-sm text-white">No Effect</h1>
                 <div className="grid grid-cols-[10%_87%] items-center gap-2">
-                  <TypeTable tableTypes={tableTypesAttack} x={"x0"} getTypeImage={getTypeImage}/>
+                  <TypeTable
+                    tableTypes={tableTypesAttack}
+                    x={'x0'}
+                    getTypeImage={getTypeImage}
+                  />
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
+            </div> */}
+
       </div>
     </article>
   )

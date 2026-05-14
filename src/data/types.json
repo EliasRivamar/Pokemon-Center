@@ -1,86 +1,108 @@
 [
   {
     "type": "Normal",
-    "num": "1"
+    "num": "1",
+    "value": 1
   },
   {
     "type": "Fighting",
-    "num": "2"
+    "num": "2",
+    "value": 1
+    
   },
   {
     "type": "Flying",
-    "num": "3"
+    "num": "3",
+    "value": 1
   },
   {
     "type": "Poison",
-    "num": "4"
+    "num": "4",
+    "value": 1
   },
   {
     "type": "Ground",
-    "num": "5"
+    "num": "5",
+    "value": 1
   },
   {
     "type": "Rock",
-    "num": "6"
+    "num": "6",
+    "value": 1
   },
   {
     "type": "Bug",
-    "num": "7"
+    "num": "7",
+    "value": 1
   },
   {
     "type": "Ghost",
-    "num": "8"
+    "num": "8",
+    "value": 1
   },
   {
     "type": "Steel",
-    "num": "9"
+    "num": "9",
+    "value": 1
   },
   {
     "type": "Fire",
-    "num": "10"
+    "num": "10",
+    "value": 1
   },
   {
     "type": "Water",
-    "num": "11"
+    "num": "11",
+    "value": 1
   },
   {
     "type": "Grass",
-    "num": "12"
+    "num": "12",
+    "value": 1
   },
   {
     "type": "Electric",
-    "num": "13"
+    "num": "13",
+    "value": 1
   },
   {
     "type": "Psychic",
-    "num": "14"
+    "num": "14",
+    "value": 1
   },
   {
     "type": "Ice",
-    "num": "15"
+    "num": "15",
+    "value": 1
   },
   {
     "type": "Dragon",
-    "num": "16"
+    "num": "16",
+    "value": 1
   },
   {
     "type": "Dark",
-    "num": "17"
+    "num": "17",
+    "value": 1
   },
   {
     "type": "Fairy",
-    "num": "18"
+    "num": "18",
+    "value": 1
   },
   {
     "type": "Stellar",
-    "num": "19"
+    "num": "19",
+    "value": 1
   },
   {
     "type": "Unknow",
-    "num": "10001"
+    "num": "10001",
+    "value": 1
   },
   {
     "type": "Shadow",
-    "num": "10002"
+    "num": "10002",
+    "value": 1
   }
 ]

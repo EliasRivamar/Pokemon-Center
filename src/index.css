@@ -1,6 +1,13 @@
 @import "tailwindcss";
 @custom-variant dark (&:where(.dark, .dark *));
 
+html {
+  background-color: #F2F2F2;
+}
+html.dark {
+  background-color: #121212;
+}
+
 @font-face {
   font-family: 'pixelFont';
   src: url('./public/fonts/pixel_font2.ttf') format('truetype');

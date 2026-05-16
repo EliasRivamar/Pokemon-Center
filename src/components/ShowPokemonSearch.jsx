@@ -6,19 +6,20 @@ function getTypeImage(type) {
   const numType = typeNum.find((t) => t.type === type)
   return numType.num
 }
-export function PokemonSearched ({filteredPokemons, loadedImg, handleLoad}){
+export function PokemonSearched ({filteredPokemons, loadedImg, handleLoad, setSearchValue}){
     const [isFallback, setIsFallback] = useState(false)
   return(
 <>
     {
-      filteredPokemons.map((p) => {
+      filteredPokemons.length !== 0 ?
+      filteredPokemons.slice(0,10).map((p) => {
         const isLoaded = loadedImg.has(p.name)
         return(
-          <div key={p.name} className=' w-full h-18 items-center'>
-            <Link to={`/${p.name}-${p.id}`} className="items-center">
+          <div key={p.name} className=' w-full h-18 items-center' onClick={() => setSearchValue('')}>
+            <Link to={`/${p.apiName}`} className="items-center">
               <div
                 key={p.name}
-                className=" flex w-full min-w-0 flex-1 overflow-hidden border z-32 border-bor-light dark:border-bor-dark rounded-lg bg-bg-light dark:bg-bg-dark hover:bg-bg-second-light dark:hover:bg-bg-second-dark h-full transition-all duration-300 ease-in-out cursor-pointer p-2"
+                className=" flex w-full border z-32 border-bor-light dark:border-bor-dark rounded-lg bg-bg-light dark:bg-bg-dark hover:bg-bg-second-light dark:hover:bg-bg-second-dark h-full transition-all duration-300 ease-in-out cursor-pointer p-2 items-center"
               >
                 <img
                   className={`w-12 h-12 lg:w-18 lg:h-18 transition-opacity lg:-mt-2 duration-1000 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'} ${isFallback ? 'scale-100' : ''}`}
@@ -31,7 +32,7 @@ export function PokemonSearched ({filteredPokemons, loadedImg, handleLoad}){
                   alt={p.name}
                 />
                 <p
-                  className={`w-[35%] font-display text-center text-text-primary-light dark:text-text-primary-dark transition-opacity duration-1000 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
+                  className={`w-[40%] font-display text-center text-text-primary-light dark:text-text-primary-dark transition-all duration-1000 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
                 >
                   {p.name}
                 </p>
@@ -54,8 +55,19 @@ export function PokemonSearched ({filteredPokemons, loadedImg, handleLoad}){
             </Link>
           </div>
         )
-      }
-      )
+      } 
+    )
+    : <div className=' w-full h-10 items-center'>
+      <div
+        className=" flex w-full min-w-0 flex-1 overflow-hidden border z-32 border-bor-light dark:border-bor-dark rounded-lg bg-bg-light dark:bg-bg-dark hover:bg-bg-second-light dark:hover:bg-bg-second-dark h-full transition-all duration-300 ease-in-out cursor-pointer p-2"
+      >
+        <p
+                  className={`w-full font-display text-center text-text-primary-light dark:text-text-primary-dark transition-opacity duration-1000 ease-in-out`}
+                >
+                  No Results
+                </p>
+      </div>
+  </div>
     }
 </>
   )

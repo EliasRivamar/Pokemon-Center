@@ -18,11 +18,11 @@ function getColor(stat){
 
 export function ShowStat({name, stat}) {
   return (
-    <div className="grid grid-cols-[108px_70%] gap-2 place-items-center">
-      <h1 className="font-display text-xl text-black dark:text-white text-center">
+    <div className="grid lg:grid-cols-[108px_70%] grid-cols-[65px_70%] gap-2 place-items-center">
+      <h1 className="font-display lg:text-xl text-text-primary-dark lg:text-black dark:text-white text-center">
         {name}
       </h1>
-      <div className=" w-full h-5 dark:bg-bg-second-dark bg-gray-300 rounded-2xl rounded-l-5xl">
+      <div className=" w-full lg:h-5 lg:dark:bg-bg-second-dark dark:bg-bg-dark bg-gray-300 rounded-2xl rounded-l-5xl">
         <div
           style={{ width: `${getPorcentaje(stat)}%`, backgroundColor: getColor(stat)}}
           className={`h-5 rounded-2xl relative`}

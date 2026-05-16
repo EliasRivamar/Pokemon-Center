@@ -9,7 +9,7 @@ export function useGen(){
       if (genInput === "1") {
         localStorage.setItem("gen", "1");
       } else {
-        localStorage.setItem("gen", "4");
+        localStorage.setItem("gen", "1");
       }
     }, [genInput]);
     return {genInput, setGenInput}

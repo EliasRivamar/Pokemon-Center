@@ -1,5 +1,5 @@
 import { useTheme } from '../hooks/useTheme'
-import { Link} from 'react-router-dom'
+import { Link,useLocation} from 'react-router-dom'
 import poke from '../data/pokedex.json'
 import { useGen } from '../hooks/useGen'
 import { getGenerations } from '../services/getGenerations.js'
@@ -10,6 +10,7 @@ import { CustomSelect } from './CustomSelect.jsx'
 import { SearchBar } from './SearchBar.jsx'
 import { useState } from 'react'
 import { PokemonSearched } from './ShowPokemonSearch.jsx'
+import {useDebounce} from 'use-debounce'
 
 
 
@@ -20,6 +21,8 @@ export function Header({setLoadedImg, setGen, loadedImg,
   const { theme, setTheme } = useTheme()
   const { genInput, setGenInput } = useGen()
   const [searchValue, setSearchValue] = useState("")
+  const location = useLocation()
+  
   useEffect(() => {
     async function getGen() {
       setLoadedImg(new Set())
@@ -29,14 +32,17 @@ export function Header({setLoadedImg, setGen, loadedImg,
     getGen()
   }, [genInput])
 
+
   function handleChange(e){
     const value = e.target.value
     setSearchValue(value)
   }
+  const [debouncedValue] = useDebounce(searchValue, 400);
 
-  const filteredPokemons = searchValue === ''
-  ? poke
-  : poke.filter(p => { return p.slug.includes(searchValue.toLowerCase())})
+
+  const filteredPokemons = debouncedValue === ''
+  ? []
+  : poke.filter(p => { return p.slug.includes(debouncedValue.toLowerCase())})
 
   return (
     <header className="items-center m-5 relative">
@@ -47,13 +53,13 @@ export function Header({setLoadedImg, setGen, loadedImg,
       </Link>
       <div className='flex items-center justify-center gap-2 relative'>
         <div className='relative place-items-center'>
-          <SearchBar onChange={handleChange}/>
-          <div className='lg:w-90 w-70 h-75 lg:h-80 p-2.5 absolute top-7.5 z-33 overflow-y-scroll overflow-x-hidden'>
-            { searchValue === ""  ? <></> :  <PokemonSearched filteredPokemons={filteredPokemons} loadedImg={loadedImg} handleLoad={handleLoad}/>}
+          <SearchBar searchValue={searchValue} onChange={handleChange}/>
+          <div className={`lg:w-90 w-70 h-75 lg:h-80 absolute ${location === '/' ? 'left-2' : ''} top-10 z-33 ${searchValue === '' ? 'hidden' : ''} overflow-y-scroll overflow-x-hidden`}>
+            { searchValue === ""  ? <></> :  <PokemonSearched filteredPokemons={filteredPokemons} setSearchValue={setSearchValue} loadedImg={loadedImg} handleLoad={handleLoad}/>}
           </div>
         </div>
         <div>
-          <CustomSelect value={genInput} onChange={(value) => setGenInput(value)} options={[1,2,3,4,5,6,7,8,9]}/>
+          {location.pathname === '/' ?<CustomSelect value={genInput} onChange={(value) => setGenInput(value)} options={[1,2,3,4,5,6,7,8,9]}/> : <></>}
         </div>
       </div>
         <div className="flex items-center gap-2 p-0 rounded-lg bg-bg-light dark:bg-bg-dark border border-bor-light dark:border-bor-dark absolute right-0 top-0 ">

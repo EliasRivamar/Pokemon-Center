@@ -1,8 +1,8 @@
 
 
-const getPokemon = async(id) => {
+const getPokemon = async(name) => {
   try {
-    const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}/`)
+    const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${name.toLowerCase()}/`)
     const data = await res.json()
     return data
   }

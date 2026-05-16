@@ -41,7 +41,6 @@ export function CustomSelect({ value, onChange, options, placeholder = "Gen..." 
             <li
               key={opt.value}
               onClick={() => {
-                console.log("VALUE OPTION: ", opt.value)
                 onChange(opt.value);
                 setOpen(false);
               }}

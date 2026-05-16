@@ -432,7 +432,7 @@
     "isGimmick": false
   },
   {
-    "id": 12,
+    "id": 10198,
     "name": "Butterfree-Gmax",
     "slug": "butterfree-gmax",
     "apiName": "butterfree-gmax",
@@ -897,7 +897,7 @@
     "isGimmick": false
   },
   {
-    "id": 25,
+    "id": 10199,
     "name": "Pikachu-Gmax",
     "slug": "pikachu-gmax",
     "apiName": "pikachu-gmax",
@@ -2338,7 +2338,7 @@
     "isGimmick": false
   },
   {
-    "id": 68,
+    "id": 10201,
     "name": "Machamp-Gmax",
     "slug": "machamp-gmax",
     "apiName": "machamp-gmax",
@@ -2766,7 +2766,7 @@
     "isGimmick": false
   },
   {
-    "id": 79,
+    "id": 10164,
     "name": "Galarian Slowpoke",
     "slug": "slowpoke-galar",
     "apiName": "slowpoke-galar",
@@ -2836,7 +2836,7 @@
     "isGimmick": true
   },
   {
-    "id": 80,
+    "id": 10165,
     "name": "Galarian Slowbro",
     "slug": "slowbro-galar",
     "apiName": "slowbro-galar",
@@ -3283,7 +3283,7 @@
     "isGimmick": true
   },
   {
-    "id": 94,
+    "id": 10202,
     "name": "Gengar-Gmax",
     "slug": "gengar-gmax",
     "apiName": "gengar-gmax",
@@ -3425,7 +3425,7 @@
     "isGimmick": false
   },
   {
-    "id": 99,
+    "id": 10203,
     "name": "Kingler-Gmax",
     "slug": "kingler-gmax",
     "apiName": "kingler-gmax",
@@ -4538,7 +4538,7 @@
     "isGimmick": false
   },
   {
-    "id": 131,
+    "id": 10204,
     "name": "Lapras-Gmax",
     "slug": "lapras-gmax",
     "apiName": "lapras-gmax",
@@ -4633,7 +4633,7 @@
     "isGimmick": false
   },
   {
-    "id": 133,
+    "id": 10205,
     "name": "Eevee-Gmax",
     "slug": "eevee-gmax",
     "apiName": "eevee-gmax",
@@ -4916,7 +4916,7 @@
     "isGimmick": false
   },
   {
-    "id": 143,
+    "id": 10206,
     "name": "Snorlax-Gmax",
     "slug": "snorlax-gmax",
     "apiName": "snorlax-gmax",
@@ -6506,7 +6506,7 @@
     "isGimmick": false
   },
   {
-    "id": 199,
+    "id": 10172,
     "name": "Galarian Slowking",
     "slug": "slowking-galar",
     "apiName": "slowking-galar",
@@ -7189,7 +7189,7 @@
     "isGimmick": false
   },
   {
-    "id": 222,
+    "id": 10173,
     "name": "Galarian Corsola",
     "slug": "corsola-galar",
     "apiName": "corsola-galar",
@@ -17313,7 +17313,7 @@
     "isGimmick": false
   },
   {
-    "id": 569,
+    "id": 10207,
     "name": "Garbodor-Gmax",
     "slug": "garbodor-gmax",
     "apiName": "garbodor-gmax",
@@ -24814,7 +24814,7 @@
     "isGimmick": false
   },
   {
-    "id": 809,
+    "id": 10208,
     "name": "Melmetal-Gmax",
     "slug": "melmetal-gmax",
     "apiName": "melmetal-gmax",
@@ -24905,7 +24905,7 @@
     "isGimmick": false
   },
   {
-    "id": 812,
+    "id": 10209,
     "name": "Rillaboom-Gmax",
     "slug": "rillaboom-gmax",
     "apiName": "rillaboom-gmax",
@@ -24997,7 +24997,7 @@
     "isGimmick": false
   },
   {
-    "id": 815,
+    "id": 10210,
     "name": "Cinderace-Gmax",
     "slug": "cinderace-gmax",
     "apiName": "cinderace-gmax",
@@ -25089,7 +25089,7 @@
     "isGimmick": false
   },
   {
-    "id": 818,
+    "id": 10211,
     "name": "Inteleon-Gmax",
     "slug": "inteleon-gmax",
     "apiName": "inteleon-gmax",
@@ -25230,7 +25230,7 @@
     "isGimmick": false
   },
   {
-    "id": 823,
+    "id": 10212,
     "name": "Corviknight-Gmax",
     "slug": "corviknight-gmax",
     "apiName": "corviknight-gmax",
@@ -25326,7 +25326,7 @@
     "isGimmick": false
   },
   {
-    "id": 826,
+    "id": 10213,
     "name": "Orbeetle-Gmax",
     "slug": "orbeetle-gmax",
     "apiName": "orbeetle-gmax",
@@ -25542,7 +25542,7 @@
     "isGimmick": false
   },
   {
-    "id": 834,
+    "id": 10214,
     "name": "Drednaw-Gmax",
     "slug": "drednaw-gmax",
     "apiName": "drednaw-gmax",
@@ -25684,7 +25684,7 @@
     "isGimmick": false
   },
   {
-    "id": 839,
+    "id": 10215,
     "name": "Coalossal-Gmax",
     "slug": "coalossal-gmax",
     "apiName": "coalossal-gmax",
@@ -25756,7 +25756,7 @@
     "isGimmick": false
   },
   {
-    "id": 841,
+    "id": 10216,
     "name": "Flapple-Gmax",
     "slug": "flapple-gmax",
     "apiName": "flapple-gmax",
@@ -25804,7 +25804,7 @@
     "isGimmick": false
   },
   {
-    "id": 842,
+    "id": 10217,
     "name": "Appletun-Gmax",
     "slug": "appletun-gmax",
     "apiName": "appletun-gmax",
@@ -25876,7 +25876,7 @@
     "isGimmick": false
   },
   {
-    "id": 844,
+    "id": 10218,
     "name": "Sandaconda-Gmax",
     "slug": "sandaconda-gmax",
     "apiName": "sandaconda-gmax",
@@ -26040,7 +26040,7 @@
     "isGimmick": false
   },
   {
-    "id": 849,
+    "id": 10219,
     "name": "Toxtricity-Gmax",
     "slug": "toxtricity-gmax",
     "apiName": "toxtricity-amped-gmax",
@@ -26064,7 +26064,7 @@
     "isGimmick": true
   },
   {
-    "id": 849,
+    "id": 10220,
     "name": "Toxtricity-Low-Key-Gmax",
     "slug": "toxtricity-low-key-gmax",
     "apiName": "toxtricity-low-key-gmax",
@@ -26136,7 +26136,7 @@
     "isGimmick": false
   },
   {
-    "id": 851,
+    "id": 10221,
     "name": "Centiskorch-Gmax",
     "slug": "centiskorch-gmax",
     "apiName": "centiskorch-gmax",
@@ -26324,7 +26324,7 @@
     "isGimmick": false
   },
   {
-    "id": 858,
+    "id": 10222,
     "name": "Hatterene-Gmax",
     "slug": "hatterene-gmax",
     "apiName": "hatterene-gmax",
@@ -26420,7 +26420,7 @@
     "isGimmick": false
   },
   {
-    "id": 861,
+    "id": 10223,
     "name": "Grimmsnarl-Gmax",
     "slug": "grimmsnarl-gmax",
     "apiName": "grimmsnarl-gmax",
@@ -26630,7 +26630,7 @@
     "isGimmick": false
   },
   {
-    "id": 869,
+    "id": 10224,
     "name": "Alcremie-Gmax",
     "slug": "alcremie-gmax",
     "apiName": "alcremie-gmax",
@@ -26928,7 +26928,7 @@
     "isGimmick": false
   },
   {
-    "id": 879,
+    "id": 10225,
     "name": "Copperajah-Gmax",
     "slug": "copperajah-gmax",
     "apiName": "copperajah-gmax",
@@ -27071,7 +27071,7 @@
     "isGimmick": false
   },
   {
-    "id": 884,
+    "id": 10226,
     "name": "Duraludon-Gmax",
     "slug": "duraludon-gmax",
     "apiName": "duraludon-gmax",
@@ -27365,7 +27365,7 @@
     "isGimmick": false
   },
   {
-    "id": 892,
+    "id": 10227,
     "name": "Urshifu-Gmax",
     "slug": "urshifu-gmax",
     "apiName": "urshifu-single-strike-gmax",
@@ -27387,7 +27387,7 @@
     "isGimmick": true
   },
   {
-    "id": 892,
+    "id": 10228,
     "name": "Urshifu-Rapid-Strike-Gmax",
     "slug": "urshifu-rapid-strike-gmax",
     "apiName": "urshifu-rapid-strike-gmax",

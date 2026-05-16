@@ -28,7 +28,7 @@ export function TypeTable({ tableTypes, x, getTypeImage }) {
       ) : (
         <></>
       )}
-      <div className="grid grid-cols-5 gap-2">
+      <div className="grid lg:grid-cols-5 grid-cols-4 gap-2">
         {tableTypes[x].length > 0 ? (
           tableTypes[x].map((a) => (
             <div key={a} className="flex flex-col place-items-center">
